@@ -1,6 +1,8 @@
 spring:
   application:
     name: vedoc
+  mongodb:
+    uri: mongodb://root:password@localhost:27017/vedoc?authSource=admin
   threads:
     virtual:
       enabled: true
