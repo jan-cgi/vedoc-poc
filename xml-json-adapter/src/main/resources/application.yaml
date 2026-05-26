@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: xml-json-adapter
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PASSWORD}

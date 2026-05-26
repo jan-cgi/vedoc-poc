@@ -2,7 +2,12 @@ spring:
   application:
     name: vedoc
   mongodb:
-    uri: mongodb://root:password@localhost:27017/vedoc?authSource=admin
+      uri: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@localhost:27017/vedoc?authSource=admin
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PASSWORD}
   threads:
     virtual:
       enabled: true
