@@ -1,11 +1,10 @@
 package com.example.xmljsonadapter.vehicle
 
-import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 
 @Component
-class Runner(private val rabbitTemplate: RabbitTemplate) : CommandLineRunner {
+class Runner(private val vehicleService: VehicleService) : CommandLineRunner {
 
     override fun run(vararg args: String) {
         val vehicle = """
@@ -28,9 +27,11 @@ class Runner(private val rabbitTemplate: RabbitTemplate) : CommandLineRunner {
             }
           }
         }
-    """.trimIndent()
+        """.trimIndent()
 
-        rabbitTemplate.convertAndSend("vehicle.create.queue", vehicle)
+        vehicleService.createVehicle(vehicle)
+        Thread.sleep(1000)
+        print(vehicleService.getVehicle("9BM9581341H041434"))
     }
 
 }
