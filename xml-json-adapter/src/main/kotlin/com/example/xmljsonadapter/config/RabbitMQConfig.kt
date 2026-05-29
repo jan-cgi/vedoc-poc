@@ -48,7 +48,7 @@ class RabbitMQConfig {
     fun rpcRabbitTemplate(connectionFactory: ConnectionFactory): RabbitTemplate {
         val template = RabbitTemplate(connectionFactory)
         template.setReplyAddress("$VEHICLE_EXCHANGE/$VEHICLE_GET_RESPONSE_KEY")
-        template.setReplyTimeout(5000)
+        template.setReplyTimeout(10_000)
         return template
     }
 

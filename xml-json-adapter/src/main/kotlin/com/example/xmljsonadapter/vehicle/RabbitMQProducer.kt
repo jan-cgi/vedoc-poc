@@ -7,16 +7,16 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.stereotype.Service
 
 @Service
-class VehicleService(
+class RabbitMQProducer(
     private val defaultRabbitTemplate: RabbitTemplate,
     private val rpcRabbitTemplate: RabbitTemplate,
 ) {
 
-    fun createVehicle(vehicle: String) {
+    fun createVehicle(vehicleJson: String) {
         defaultRabbitTemplate.convertAndSend(
             VEHICLE_EXCHANGE,
             VEHICLE_CREATE_KEY,
-            vehicle
+            vehicleJson
         )
     }
 

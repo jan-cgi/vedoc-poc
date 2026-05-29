@@ -1,8 +1,20 @@
 spring:
   application:
     name: xml-json-adapter
+  jms:
+    listener:
+      min-concurrency: 10
+      max-concurrency: 20
   rabbitmq:
     host: localhost
     port: 5672
     username: ${RABBITMQ_USER}
     password: ${RABBITMQ_PASSWORD}
+
+ibm:
+  mq:
+    queue-manager: QM1
+    conn-name: localhost(1414)
+    channel: DEV.APP.SVRCONN
+    user: ${IBM_MQ_USER}
+    password: ${IBM_MQ_PASSWORD}

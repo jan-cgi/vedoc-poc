@@ -18,3 +18,15 @@ services:
     environment:
       RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER}
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
+  
+  ibmmq:
+    image: jan310/ibm-mqadvanced-server-dev:9.4.5.1-arm64
+    container_name: ibmmq
+    ports:
+      - "1414:1414"   # IBM MQ
+      - "9443:9443"   # Management UI (via https)
+    environment:
+      LICENSE: accept
+      MQ_QMGR_NAME: QM1
+      MQ_APP_PASSWORD: ${IBM_MQ_PASSWORD} # user = app
+      MQ_ADMIN_PASSWORD: ${IBM_MQ_PASSWORD} # user = admin

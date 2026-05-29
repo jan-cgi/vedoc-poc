@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component
 import tools.jackson.databind.json.JsonMapper
 
 @Component
-class VehicleListener(
+class RabbitMQConsumer(
     private val jsonMapper: JsonMapper,
     private val vehicleRepository: VehicleRepository
 ) {
