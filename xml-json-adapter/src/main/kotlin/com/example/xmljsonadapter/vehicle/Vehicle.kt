@@ -1,17 +1,6 @@
-package com.example.vedoc.vehicle
+package com.example.xmljsonadapter.vehicle
 
-import org.springframework.data.annotation.Id
-import org.springframework.data.mongodb.core.mapping.Document
-
-@Document("vehicles")
 data class Vehicle(
-    @Id
-    val id: String? = null,
-    val vehicleDatacard: VehicleDatacard? = null,
-    val reference: Reference? = null,
-)
-
-data class VehicleDTO(
     val vehicleDatacard: VehicleDatacard? = null,
     val reference: Reference? = null,
 )
@@ -38,9 +27,4 @@ data class VehicleDatacard(
 data class Reference(
     val productgroup: Any? = null,
     val company: Any? = null,
-)
-
-fun Vehicle.toDto() = VehicleDTO(
-    vehicleDatacard = vehicleDatacard,
-    reference = reference
 )

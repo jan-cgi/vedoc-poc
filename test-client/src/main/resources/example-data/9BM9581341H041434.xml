@@ -1,0 +1,4524 @@
+<vehicle>
+    <vehicleDatacard>
+        <checkDigit>2</checkDigit>
+        <fin>9BM9581341H041434</fin>
+        <fixingPartsAvailable>false</fixingPartsAvailable>
+        <prodOrderTextAvailable>false</prodOrderTextAvailable>
+        <productGroupIndication>N</productGroupIndication>
+        <productSeries>958</productSeries>
+        <productSeriesBrand>mb</productSeriesBrand>
+        <productSeriesDesignation>Baureihe 958</productSeriesDesignation>
+        <vehicleModelDescription>1419      4X2   4760</vehicleModelDescription>
+        <vehicleModelDesignation>958134</vehicleModelDesignation>
+        <activeAssignedFpd>
+            <equipmentCodes>
+                <code>AC9</code>
+                <codeType>sales</codeType>
+                <designation>Achsübersetzung i = 4,100 (HL8)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>AL8</code>
+                <codeType>sales</codeType>
+                <designation>Hinterachse H4 10,8 t, Tellerrad 368</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>AX4</code>
+                <codeType>sales</codeType>
+                <designation>Vorderachse 5,0 t</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>AY0</code>
+                <codeType>sales</codeType>
+                <designation>Kupplungsgabel Yoke SPL 100</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>B02</code>
+                <codeType>sales</codeType>
+                <designation>Antiblockiersystem (ABS)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>B35</code>
+                <codeType>sales</codeType>
+                <designation>Bremsnachstellung, automatisch</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>BB6</code>
+                <codeType>sales</codeType>
+                <designation>Trommelbremse an VA und HA</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>C43</code>
+                <codeType>sales</codeType>
+                <designation>Stabilisator Hinterachse, verstärkt, unter Rahmen</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>C45</code>
+                <codeType>sales</codeType>
+                <designation>Stabilisator, verstärkt, Vorderachse</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>C63</code>
+                <codeType>sales</codeType>
+                <designation>Stoßstange Stahlausführung</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>C80</code>
+                <codeType>sales</codeType>
+                <designation>Lenksäulenhalter, starr</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>E30</code>
+                <codeType>sales</codeType>
+                <designation>Batterie-Hauptschalter, 1-polig</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>E89</code>
+                <codeType>sales</codeType>
+                <designation>Zigarettenanzünder</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>EE8</code>
+                <codeType>sales</codeType>
+                <designation>Batterie, 12 V/100 Ah</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>EM8</code>
+                <codeType>sales</codeType>
+                <designation>PSM, Aufbau- und Anhänger-CAN, ISO 11992</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>ES1</code>
+                <codeType>sales</codeType>
+                <designation>Steckdose, 12 V, in Instrumententafel</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>ET9</code>
+                <codeType>sales</codeType>
+                <designation>Spannungswandler 24 V/12 V, 5 A</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>EV6</code>
+                <codeType>sales</codeType>
+                <designation>Vorrüstung 12 V-Radio, nachträglicher Einbau</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>F07</code>
+                <codeType>sales</codeType>
+                <designation>S-Fahrerhaus</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>FL4</code>
+                <codeType>sales</codeType>
+                <designation>Komfort-Fahrerhauslagerung, stahlgefedert</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>FP6</code>
+                <codeType>sales</codeType>
+                <designation>Innenverkleidung, Stoff</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>FZ7</code>
+                <codeType>sales</codeType>
+                <designation>Wegfahrsperre, mit Transponder</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>GC5</code>
+                <codeType>sales</codeType>
+                <designation>Getriebe G 60-6/9,2-1,0</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>IA0</code>
+                <codeType>sales</codeType>
+                <designation>Radformel 4x2</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>IC1</code>
+                <codeType>sales</codeType>
+                <designation>Pritschenfahrgestell</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>IJ1</code>
+                <codeType>sales</codeType>
+                <designation>Baureihe NTC - ATEGO</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>IR7</code>
+                <codeType>sales</codeType>
+                <designation>Radstand 4760 mm</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>IY0</code>
+                <codeType>sales</codeType>
+                <designation>14,3-Tonner</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>J16</code>
+                <codeType>sales</codeType>
+                <designation>Tachograf, 7 Tage</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>JK3</code>
+                <codeType>sales</codeType>
+                <designation>Kombi-Instrument, grafikfähiges Display, Ökometer</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>K91</code>
+                <codeType>sales</codeType>
+                <designation>Haupttank 210 l, Kunststoff</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>KD6</code>
+                <codeType>sales</codeType>
+                <designation>Abgasüberwachung für Stickoxid (NOx)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>KP2</code>
+                <codeType>sales</codeType>
+                <designation>AdBlue-Tank, 35 l</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>KZ7</code>
+                <codeType>sales</codeType>
+                <designation>Nox-Tankverschluss, abschließbar</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>MB1</code>
+                <codeType>sales</codeType>
+                <designation>Motorbremse, mit Konstantdrossel</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>MR2</code>
+                <codeType>sales</codeType>
+                <designation>Motor OM 924 LA 136 kW (185 PS), 2200/min</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>MS5</code>
+                <codeType>sales</codeType>
+                <designation>BlueTec 5 (Euro V)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>QD5</code>
+                <codeType>sales</codeType>
+                <designation>Vorderfeder, 4,7 t, Parabel</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>QH6</code>
+                <codeType>sales</codeType>
+                <designation>Hinterfeder, 9,3 t, Parabel</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>R70</code>
+                <codeType>sales</codeType>
+                <designation>Reserveradheber, seitlich</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>RT6</code>
+                <codeType>sales</codeType>
+                <designation>Rad 7.50x22.5 ST RF 275/80R22.5,16PR L-PROF BEF-ST</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>SE8</code>
+                <codeType>sales</codeType>
+                <designation>Fahrersitz, statisch, Grammer</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>SH7</code>
+                <codeType>sales</codeType>
+                <designation>Beifahrersitz, statisch, Wagenheberhalter, Grammer</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>SS3</code>
+                <codeType>sales</codeType>
+                <designation>Sitzbezüge, Stoff, Innenverkleidung Kunstleder</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>TD0</code>
+                <codeType>sales</codeType>
+                <designation>Gewichtsvariante 14,3 t (4,7/9,6)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>V35</code>
+                <codeType>sales</codeType>
+                <designation>Baureihe Atego Upgrade Brasilien</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>X45</code>
+                <codeType>sales</codeType>
+                <designation>Schilder/Druckschriften, portugiesisch</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>XV0</code>
+                <codeType>sales</codeType>
+                <designation>Global Cockpit</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>XW1</code>
+                <codeType>sales</codeType>
+                <designation>Make-up Innenausstattung, Atego Fahrerhaus,MB-Bras</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>XZ0</code>
+                <codeType>sales</codeType>
+                <designation>Facelift, Atego, Brasilien</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>Y16</code>
+                <codeType>sales</codeType>
+                <designation>Feuerlöscher</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>Y24</code>
+                <codeType>sales</codeType>
+                <designation>Bordwerkzeug optimiert, Brasilien</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>Y36</code>
+                <codeType>sales</codeType>
+                <designation>Wagenheber, im Fahrerhaus</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>Y68</code>
+                <codeType>sales</codeType>
+                <designation>Lackkonservierung, Fahrerhaus + Fahrgestell</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>YM0</code>
+                <codeType>sales</codeType>
+                <designation>FleetBoard Fahrzeugrechner, Vorstufe</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>YM6</code>
+                <codeType>sales</codeType>
+                <designation>Vorrüstung FleetBoard Diebstahlschutz</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>Z62</code>
+                <codeType>sales</codeType>
+                <designation>Preissteuerung, Standardlacke</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>ZJ4</code>
+                <codeType>sales</codeType>
+                <designation>Rohbau in Juiz de Fora</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>ZR1</code>
+                <codeType>sales</codeType>
+                <designation>Pritschenfahrgestell</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <equipmentCodes>
+                <code>ZX1</code>
+                <codeType>sales</codeType>
+                <designation>Steuergerät, Common Powertrain Control (CPC)</designation>
+                <productGroupIndication>N</productGroupIndication>
+            </equipmentCodes>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUPPLUNGSFLANSCH - YOKE,DURCHMESSER 125,7 MM</description>
+                <id>50400334</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDER- / HINTERACHSDECKEL - HINTERACHSDECKEL</description>
+                <id>50400710</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINTERACHSWELLE - TR368/TR410; 11,5T</description>
+                <id>50400852</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50400925</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50401034</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50401115</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINTERACHSE</description>
+                <id>50402027</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RADNABE - RADBEFESTIGUNGSBOLZEN M 22,ABS</description>
+                <id>50402213</id>
+                <designGroup>35</designGroup>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50403414</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50403512</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEGEHAEUSE VORN - G60</description>
+                <id>50414032</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORGELEGEWELLE</description>
+                <id>50414140</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HAUPTWELLE</description>
+                <id>50414257</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTSCHIENE</description>
+                <id>50414327</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEGEHAEUSE HINTEN - G60-6</description>
+                <id>50414416</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE FERNSCHALTUNG</description>
+                <id>50414541</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSCHLUSSDECKEL VORGELEGEWELLE - G60-6, G85-6</description>
+                <id>50414604</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSCHLUSSDECKEL VORGELEGEWELLE - G60-6, G85-6</description>
+                <id>50414605</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUPPLUNGSFLANSCH - YOKE SPL 100</description>
+                <id>50414720</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BOLZEN - G60-6, G85-6, GO 110</description>
+                <id>50414803</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE GETRIEBE - G56/60/85</description>
+                <id>50414905</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBESCHALTWELLE - G60/85</description>
+                <id>50415038</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MONTAGETEILE GETRIEBEGEHAEUSE - G60/85</description>
+                <id>50415130</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANTRIEBSWELLE</description>
+                <id>50415248</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE ANTRIEBSWELLE - G60/85, GO110</description>
+                <id>50415303</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50415410</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50415708</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50416020</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSGLEICHGETRIEBE OHNE RADSATZ - BR 4 TR368</description>
+                <id>50420244</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RADSATZ - RADSATZ I=4,100 (41:10)</description>
+                <id>50420328</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE ACHSE - ANTRIEBSKEGELRAD</description>
+                <id>50420407</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE ACHSE - HINTERACHSE HL 4</description>
+                <id>50420618</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TELLERRADABSTUETZUNG - I4.8805.2505.710</description>
+                <id>50421110</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSZYLINDER - LINKS, 16/24</description>
+                <id>50421367</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSZYLINDER - RECHTS, 16/24</description>
+                <id>50421368</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MEMBRANZYLINDER - LINKS</description>
+                <id>50421549</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MEMBRANZYLINDER - RECHTS</description>
+                <id>50421550</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ACHSKOERPER</description>
+                <id>50424172</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERACHSKOERPER - VL 3/38</description>
+                <id>50430261</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERACHSSCHENKEL - MIT ABS</description>
+                <id>50430378</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERRADNABE - ABS</description>
+                <id>50430724</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKHEBEL - VL 3</description>
+                <id>50430884</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSPURHEBEL - FUER BRASILIEN</description>
+                <id>50430923</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SPURSTANGE - VL 3</description>
+                <id>50431040</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50435037</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINBAUTEILE VORDERACHSE - VL 3/38</description>
+                <id>50435143</id>
+                <designGroup>33</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50451006</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSBACKE - D410 X 160 / MBB / LINKS</description>
+                <id>50452509</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSTRAEGER - HH4,HL4, MIT ABS</description>
+                <id>50452618</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSTRAEGER - MIT ABS</description>
+                <id>50452628</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSBETAETIGUNG - AUTOMATISCH NACHSTELLEND, LINKS</description>
+                <id>50452915</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSBETAETIGUNG - AUTOMATISCH NACHSTELLEND, RECHTS</description>
+                <id>50452916</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSBETAETIGUNG - AUTOMATISCH NACHSTELLEND</description>
+                <id>50452917</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSBETAETIGUNG - AUTOMATISCH NACHSTELLEND</description>
+                <id>50452918</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABS-SENSOREN</description>
+                <id>50453129</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHUTZBLECH - RECHTS</description>
+                <id>50453272</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHUTZBLECH - LINKS</description>
+                <id>50453273</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHUTZBLECH</description>
+                <id>50453286</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHUTZBLECH</description>
+                <id>50453287</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSTROMMEL - VL3 D410 X 160</description>
+                <id>50453319</id>
+                <designGroup>33</designGroup>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSTROMMEL - HL4,NR3 D410 X 160</description>
+                <id>50453320</id>
+                <designGroup>35</designGroup>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MONTAGETEILE BREMSE - AUTOMATISCH NACHSTELLEND</description>
+                <id>50453425</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MONTAGETEILE BREMSE - D410, AUTOMATISCHER GESTAENGESTELLER</description>
+                <id>50453431</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUPPLUNGSVERSTAERKER</description>
+                <id>50467703</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN, KUPPLUNGSGEHAEUSE - G60/G85</description>
+                <id>50467903</id>
+                <designGroup>25</designGroup>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50470215</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANBAUTEILE,ELEKTRISCH - STOESSELSCHALTER M20X1.5 DCBRAS</description>
+                <id>50476025</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DREHZAHLGEBER - TAUCHMASS: 25.0 MM TACHOMETER</description>
+                <id>50476123</id>
+                <designGroup>26</designGroup>
+                <designGroup>28</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ENTLUEFTUNG GETRIEBE</description>
+                <id>50476920</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50477806</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AGGREGATSCHILD - G56/60/85</description>
+                <id>50477907</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50478062</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSRUECKLAGER - G60-6</description>
+                <id>50490110</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSRUECKGABEL - STOESSEL 137</description>
+                <id>50495307</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZWISCHENFLANSCH - G60-6</description>
+                <id>50495502</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZYLINDERKURBELGEHAEUSE</description>
+                <id>50500119</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STEUERGEHAEUSE</description>
+                <id>50500237</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELWANNE</description>
+                <id>50500326</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KURBELWELLE</description>
+                <id>50500625</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PLEUELSTANGE UND KOLBEN</description>
+                <id>50500726</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWINGUNGSDAEMPFER</description>
+                <id>50500804</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWUNGRAD</description>
+                <id>50500958</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV NOCKENWELLE</description>
+                <id>50501039</id>
+                <designGroup>05</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHEBEL</description>
+                <id>50501110</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STECKPUMPE</description>
+                <id>50501212</id>
+                <designGroup>07</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFFILTER</description>
+                <id>50501319</id>
+                <designGroup>09</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLEITUNG</description>
+                <id>50501412</id>
+                <designGroup>07</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LADELUFTGEHAEUSE</description>
+                <id>50501714</id>
+                <designGroup>14</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTPRESSER</description>
+                <id>50501808</id>
+                <designGroup>13</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANSAUGLEITUNG LUFTPRESSER</description>
+                <id>50501995</id>
+                <designGroup>13</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSPUFFKRUEMMER</description>
+                <id>50502028</id>
+                <designGroup>14</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STARTER</description>
+                <id>50502119</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GENERATOR</description>
+                <id>50502261</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELPUMPE</description>
+                <id>50502302</id>
+                <designGroup>18</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SAUGROHR OELPUMPE</description>
+                <id>50502403</id>
+                <designGroup>18</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELFILTER</description>
+                <id>50502509</id>
+                <designGroup>18</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELKUEHLER</description>
+                <id>50502615</id>
+                <designGroup>18</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELDRUCKLEITUNG</description>
+                <id>50502737</id>
+                <designGroup>18</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WASSERPUMPE</description>
+                <id>50502813</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RIEMENSCHEIBE</description>
+                <id>50502904</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GEBER</description>
+                <id>50503012</id>
+                <designGroup>01</designGroup>
+                <designGroup>18</designGroup>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GEBER</description>
+                <id>50503014</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GEBER</description>
+                <id>50503021</id>
+                <designGroup>14</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GEBER</description>
+                <id>50503024</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KEILRIEMEN</description>
+                <id>50503177</id>
+                <designGroup>20</designGroup>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV THERMOSTAT</description>
+                <id>50503229</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUEFTER</description>
+                <id>50503316</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZYLINDERKOPFHAUBE</description>
+                <id>50503609</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFFPUMPE</description>
+                <id>50503707</id>
+                <designGroup>07</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZYLINDERKOPF</description>
+                <id>50503982</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PLEUELLAGER</description>
+                <id>50504019</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KURBELWELLENRAD</description>
+                <id>50504105</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50504201</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORTRAEGER</description>
+                <id>50504319</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZYLINDERKOPFDICHTUNG</description>
+                <id>50504636</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINSPRITZDUESE</description>
+                <id>50504759</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HAUPTLAGER-TEILESATZ</description>
+                <id>50505008</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFFLEITUNGEN</description>
+                <id>50505153</id>
+                <designGroup>01</designGroup>
+                <designGroup>07</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FLANSCHKRUEMMER</description>
+                <id>50505297</id>
+                <designGroup>14</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50505501</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50505604</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ENTLUEFTUNG MOTOR</description>
+                <id>50505945</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HEIZUNGSVORLAUF</description>
+                <id>50506102</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSCHLUSSTEILE,BEFESTIGUNGSTEILE</description>
+                <id>50506203</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLWASSERLEITUNG LUFTPRESSER</description>
+                <id>50506415</id>
+                <designGroup>13</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLWASSERLEITUNG LUFTPRESSER</description>
+                <id>50506418</id>
+                <designGroup>13</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KONSTANTDROSSELLEITUNG</description>
+                <id>50506607</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFHAENGEOESE</description>
+                <id>50506713</id>
+                <designGroup>22</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSCHLUSS FLAMMSTARTANLAGE</description>
+                <id>50507003</id>
+                <designGroup>09</designGroup>
+                <designGroup>14</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50507101</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RIEMENSPANNVORRICHTUNG</description>
+                <id>50507231</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUEFTERZWISCHENSTUECK</description>
+                <id>50507302</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUEFTERZWISCHENSTUECK</description>
+                <id>50507313</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50507402</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABSCHIRMBLECH</description>
+                <id>50507646</id>
+                <designGroup>09</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKHAUBE</description>
+                <id>50507825</id>
+                <designGroup>07</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50508602</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50508603</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DECKEL THERMOSTATGEHAEUSE</description>
+                <id>50508705</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERBINDUNGSSTUECK,MOTORKUEHLUNG</description>
+                <id>50508802</id>
+                <designGroup>20</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAGERUNG GETRIEBEWELLE</description>
+                <id>50508912</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50509104</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50514018</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50514034</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50514041</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50514070</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>50514096</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOLBEN</description>
+                <id>50560237</id>
+                <designGroup>03</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORSTEUERGERAET</description>
+                <id>50560557</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABGASTURBOLADER</description>
+                <id>50560650</id>
+                <designGroup>09</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LADELUFTROHR</description>
+                <id>50560865</id>
+                <designGroup>09</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORTRAEGER</description>
+                <id>50562229</id>
+                <designGroup>22</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSSATZ</description>
+                <id>50563167</id>
+                <designGroup>15</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORSTEUERGERAET</description>
+                <id>50564211</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GERAEUSCHKAPSEL,OELWANNE - OELWANNE,4X2</description>
+                <id>50948403</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>.</description>
+                <id>51901163</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHEIBENRAD - 7,50 X 22,5</description>
+                <id>51904145</id>
+                <designGroup>40</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHEIBENRAD</description>
+                <id>51904201</id>
+                <designGroup>40</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VENTILVERLAENGERUNG</description>
+                <id>51904303</id>
+                <designGroup>40</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIELEITUNG</description>
+                <id>51907369</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FANGBAND GELENKWELLE</description>
+                <id>51910808</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG HALTER ZWISCHENLAGER</description>
+                <id>51911003</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG ZWISCHENLAGER</description>
+                <id>51911103</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKHELFPUMPE</description>
+                <id>52250002</id>
+                <designGroup>23</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELMESSEINRICHTUNG</description>
+                <id>52250223</id>
+                <designGroup>01</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG MOTOR</description>
+                <id>53600001</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORLAGER VORN - OM 904 LA</description>
+                <id>53600101</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORLAGER VORN</description>
+                <id>53600110</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORLAGER HINTEN</description>
+                <id>53600213</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORLAGER HINTEN</description>
+                <id>53600215</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORTRAEGER HINTEN</description>
+                <id>53600301</id>
+                <designGroup>24</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUPPLUNGSLEITUNGEN</description>
+                <id>53600412</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53600501</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINSTIEG - ZWEISTUFIG,SCHMAL</description>
+                <id>53600701</id>
+                <designGroup>66</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG GETRIEBE AN MOTOR</description>
+                <id>53600801</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUPPLUNGSSCHEIBE,DRUCKPLATTE,</description>
+                <id>53600909</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER AN FAHRERHAUS AUSSEN - FUER LINKSLENKER-FAHRZEUGE</description>
+                <id>53601101</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601210</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601211</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601213</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601226</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601233</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601234</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMEN-,UND MOTORLEITUNGSSATZ</description>
+                <id>53601235</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTERUNG MOTOR-UND RAHMENLEITUNGSSATZ</description>
+                <id>53601302</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTERUNG MOTOR-UND RAHMENLEITUNGSSATZ</description>
+                <id>53601327</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTERUNG MOTOR-UND RAHMENLEITUNGSSATZ</description>
+                <id>53601328</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTERUNG MOTOR-UND RAHMENLEITUNGSSATZ</description>
+                <id>53601329</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTERUNG MOTOR-UND RAHMENLEITUNGSSATZ</description>
+                <id>53601330</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FEDERBUEGEL VORDERACHSE - M 18X1,5X190/180 RUND 4X2</description>
+                <id>53601502</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FHS-DAEMPFUNG VORN</description>
+                <id>53601804</id>
+                <designGroup>31</designGroup>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRERHAUS-DAEMPFUNG HINTEN</description>
+                <id>53602217</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRERHAUS-DAEMPFUNG HINTEN</description>
+                <id>53602219</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZUSATZBLINKLEUCHTE SEITLICH - SEITLICH</description>
+                <id>53602301</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG - S-FHS</description>
+                <id>53602401</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEILAGE,ANSCHLAGPUFFER VORDERACHSE - 55/36/20</description>
+                <id>53602502</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER FILTERKASTEN</description>
+                <id>53602801</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSFAENGER VORN</description>
+                <id>53603516</id>
+                <designGroup>82</designGroup>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAENGSTRAEGER VORN</description>
+                <id>53603602</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE - HALTER AN STIRNWAND LINKS</description>
+                <id>53603705</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603766</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603776</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603777</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603782</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603786</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603790</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603794</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53603799</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOTLUEGEL VORN INNEN - EINSTIEG ZWEISTUFIG,BREIT</description>
+                <id>53604101</id>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOTFLUEGEL HINTEN - FAHRERHAUS KURZ (CODE F07) SCHMALE AUSFUEHRUNG</description>
+                <id>53604201</id>
+                <designGroup>68</designGroup>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZIERGITTER LUFTANSAUGUNG</description>
+                <id>53604304</id>
+                <designGroup>75</designGroup>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIEHALTERUNG</description>
+                <id>53604610</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIEHALTERUNG</description>
+                <id>53604614</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIELEITUNGEN</description>
+                <id>53604738</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIELEITUNGEN</description>
+                <id>53604763</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIELEITUNGEN</description>
+                <id>53604767</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIELEITUNGEN</description>
+                <id>53604769</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIELEITUNGEN</description>
+                <id>53604775</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53604901</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53604905</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53604909</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53604911</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAENGSTRAEGER</description>
+                <id>53605028</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAGERBOCK DREHSTAB VORDERACHSE - 4X2,M18-D40</description>
+                <id>53605201</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. LASCHE AN KONSOLE</description>
+                <id>53605301</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERFEDER</description>
+                <id>53605409</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF.-TEILE VORDERACHSE - 4X2/4X4; M18 BIS 5,4 T</description>
+                <id>53605501</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. VORDERFEDER AN VORDERFEDERBOCK HINTEN - 4X4 D46/M18</description>
+                <id>53605602</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLUSSQUERTRAEGER</description>
+                <id>53605713</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605902</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605905</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605906</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605912</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605914</id>
+                <designGroup>58</designGroup>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605917</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605918</id>
+                <designGroup>58</designGroup>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605925</id>
+                <designGroup>58</designGroup>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605929</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605941</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605942</id>
+                <designGroup>26</designGroup>
+                <designGroup>55</designGroup>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605949</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605950</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605954</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUFKLEBER</description>
+                <id>53605957</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV QUERTRAEGER UNTERFAHRSCHUTZ - LINKSLENKER OHNE UNTERFAHRSCHUTZ</description>
+                <id>53606101</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOPPELMAUL QUERTRAEGER - AB 10,5 T</description>
+                <id>53606301</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEQUERTRAEGER</description>
+                <id>53606431</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEQUERTRAEGER</description>
+                <id>53606435</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEQUERTRAEGER</description>
+                <id>53606436</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GETRIEBEQUERTRAEGER</description>
+                <id>53606437</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WERKZEUGTASCHE</description>
+                <id>53606607</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WAGENHEBER - 8T</description>
+                <id>53606903</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GEBER AUSSENTEMPERATUR</description>
+                <id>53607201</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMENLEITUNGSSATZ</description>
+                <id>53607501</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PLOMBIERUNG TACHOGRAF</description>
+                <id>53607702</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SIGNALHORN</description>
+                <id>53607906</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG RAHMENLEITUNGSSATZ</description>
+                <id>53608201</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABS-DREHZAHLFUEHLER VORDERACHSE</description>
+                <id>53608401</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABS-DREHZAHLFUEHLER VORDERACHSE</description>
+                <id>53608402</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DECKEL FUER KABELDURCHFUEHRUNG</description>
+                <id>53608501</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53609601</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSTAERKUNG LAENGSTRAEGER</description>
+                <id>53609710</id>
+                <designGroup>60</designGroup>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WINKEL AN LAENGSTRAEGER,ALLRADFAHRZEUGE</description>
+                <id>53609901</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHRAHMEN UEBER TUER</description>
+                <id>53610001</id>
+                <designGroup>65</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ROHBAU - FAHRERHAUS KURZ</description>
+                <id>53610201</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN MOTORTUNNEL</description>
+                <id>53610319</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN MOTORTUNNEL</description>
+                <id>53610321</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN MOTORTUNNEL</description>
+                <id>53610322</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN ROHBAU - ENTRIEGELUNG SICHERUNGSSTREBE FHS BEI EINBRUCHDIEBSTAHL-WARNANLAGE</description>
+                <id>53610401</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN VORBAU</description>
+                <id>53610501</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWEISSCHRAUBEN UNTERBAU</description>
+                <id>53610601</id>
+                <designGroup>60</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53611001</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53611101</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN,HOHLRAUMKONSERVIERUNG - FAHRERHAUS KURZ (CODE F07) FAHRERHAUS LANG (CODE F04)</description>
+                <id>53611201</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53611303</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53611601</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53611701</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>Fahrzeughandbuch</description>
+                <id>53611821</id>
+                <designGroup>58</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GRUNDPLATTE,BATTERIETRAEGER</description>
+                <id>53612003</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIEABDECKUNG</description>
+                <id>53612106</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TYPSCHILD</description>
+                <id>53612213</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53612302</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53612402</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FEDERBUEGEL HINTERACHSE</description>
+                <id>53612524</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER STOSSDAEMPFER HINTERACHSE</description>
+                <id>53612601</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSDAEMPFERBEFESTIGUNG HINTERACHSE</description>
+                <id>53612702</id>
+                <designGroup>31</designGroup>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG DREHSTAB VORDER- UND HINTERACHSE</description>
+                <id>53612802</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINTERFEDER</description>
+                <id>53613013</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. HINTERFEDER AN HINTERFEDERBOCK VORN</description>
+                <id>53613101</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. HINTERFEDER AN HINTERFEDERBOCK HINTEN</description>
+                <id>53613203</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSDAEMPFER HINTERACHSE MIT BEFESTIGUNG</description>
+                <id>53613309</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DREHSTAB,LASCHE,HINTERACHSE</description>
+                <id>53613406</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DREHSTABKONSOLE HINTERACHSE</description>
+                <id>53613502</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINTERFEDERBOCK VORN</description>
+                <id>53613605</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINTERFEDERBOCK HINTEN</description>
+                <id>53613706</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ACHSANSCHLAG</description>
+                <id>53613823</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAENGSTRAEGER - FAHRERHAUS KURZ</description>
+                <id>53614007</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RADBUEGEL INNEN - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53614103</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STIRNWAND</description>
+                <id>53614201</id>
+                <designGroup>62</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV A-SAEULE</description>
+                <id>53614301</id>
+                <designGroup>62</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHRAHMEN VORN - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53614401</id>
+                <designGroup>62</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORBAU - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53614501</id>
+                <designGroup>62</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BODEN, UNTERBAU - FAHRERHAUS KURZ</description>
+                <id>53614601</id>
+                <designGroup>61</designGroup>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORTUNNEL, UNTERBAU - FAHRERHAUS KURZ VIERZYLINDER</description>
+                <id>53614712</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV QUERTRAEGER HINTEN - FAHRERHAUS KURZ FAHRERHAUS LANG</description>
+                <id>53614801</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV QUERTRAEGER VORN</description>
+                <id>53614901</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHBEPLANKUNG - FAHRERHAUS KURZ (CODE F07) DACHLUKE</description>
+                <id>53615001</id>
+                <designGroup>65</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHGERIPPE - FAHRERHAUS KURZ (CODE F07) DACHLUKE</description>
+                <id>53615101</id>
+                <designGroup>65</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACH - FAHRERHAUS KURZ (CODE F07) DACHLUKE</description>
+                <id>53615201</id>
+                <designGroup>65</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KNOTENPLATTE,UNTERBAU - FAHRERHAUS KURZ (CODE F07) FAHRERHAUS LANG (CODE F04)</description>
+                <id>53615301</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WINDSCHUTZSCHEIBE - WAERMEDAEMMEND</description>
+                <id>53615402</id>
+                <designGroup>67</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53615602</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DAEMPFUNG MOTORTUNNEL - BEI KURZEM FAHRERHAUS;VIERZYLINDER</description>
+                <id>53615701</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSTAERKUNG VORN AN LAENGSTRAGER</description>
+                <id>53615801</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSDAEMPFER VORDERACHSE MIT BEFESTIGUNG</description>
+                <id>53616109</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KONSOLE STOSSDAEMPFER VORDERACHSE UND BEFESTIGUNG</description>
+                <id>53616204</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DREHSTAB VORDERACHSE - D 38/220</description>
+                <id>53616301</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DREHSTABKONSOLE VORDERACHSE - 4X2 VERSTAERKT</description>
+                <id>53616401</id>
+                <designGroup>31</designGroup>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERFEDERBOCK VORN - 4X2</description>
+                <id>53616502</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORDERFEDERBOCK HINTEN</description>
+                <id>53616604</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOPPELBOLZEN</description>
+                <id>53616901</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53617024</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53617025</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>Halterung</description>
+                <id>53617301</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANSCHLUSSTEILE</description>
+                <id>53617702</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617821</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617823</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617825</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617829</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617830</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617832</id>
+                <designGroup>32</designGroup>
+                <designGroup>42</designGroup>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617834</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617835</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617836</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617838</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617839</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617845</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617851</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53617856</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RUECKWAND - OHNE FENSTER;MIT HALTEGRIFF FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53618104</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV 3/2 WEGE-MAGNETVENTILE</description>
+                <id>53618204</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DECKEL ANSTELLE WIPPSCHALTER - KUNSTSTOFF</description>
+                <id>53618301</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTER INSTRUMENTENTAFEL - WARNBLINKSCHALTER</description>
+                <id>53618404</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABS-MAGNETREGELVENTIL VORDERACHSE</description>
+                <id>53618504</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LICHTSCHALTER</description>
+                <id>53618606</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VENTILEINHEIT HINTEN</description>
+                <id>53618824</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VENTILEINHEIT HINTEN</description>
+                <id>53618829</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VENTILEINHEIT HINTEN</description>
+                <id>53618833</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG SCHALTER IN INSTRUMENTENTAFEL</description>
+                <id>53619003</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53619201</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53619205</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TACHOGRAPH ; VDO-MTCO</description>
+                <id>53619804</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SEITENWAND LINKS - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53619901</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SEITENWAND RECHTS - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53620001</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV QUERTRAEGER HINTEN</description>
+                <id>53620103</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHRAHMEN HINTEN - MITTENSITZ</description>
+                <id>53620202</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SAEULE RUECKWAND - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53620301</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RUECKWAND/HECKGERIPPE</description>
+                <id>53620508</id>
+                <designGroup>64</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTPRESSERLEITUNG VORN</description>
+                <id>53620713</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BREMSSCHLAUCH VORDERACHSE</description>
+                <id>53620804</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PLATTE TRENNSTELLE FAHRERHAUS AUSSEN</description>
+                <id>53621001</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PLATTE TRENNSTELLE FAHRERHAUS AUSSEN</description>
+                <id>53621003</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MODULTRAEGER ELEKTRONIK</description>
+                <id>53621201</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MODULTRAEGER ELEKTRONIK</description>
+                <id>53621205</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MODULTRAEGER ELEKTRONIK</description>
+                <id>53621206</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG UNTEN SCHALTUNG</description>
+                <id>53621301</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG</description>
+                <id>53621404</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG</description>
+                <id>53621405</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG</description>
+                <id>53621406</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG</description>
+                <id>53621409</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RELAIS</description>
+                <id>53621605</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRONIK ABS - ABS</description>
+                <id>53621803</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRONIK PSM</description>
+                <id>53622001</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG - NICHT BEI KLIMAANLAGE IM VORBAU</description>
+                <id>53622301</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RAHMEN FUER KABELDURCHFUEHRUNG</description>
+                <id>53622601</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RADIO</description>
+                <id>53622902</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BODENBELAG</description>
+                <id>53623038</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BODENBELAG</description>
+                <id>53623041</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BODENBELAG</description>
+                <id>53623071</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG OBEN SCHALTUNG</description>
+                <id>53623101</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG,BODENBELAG VORN,NIVEAUREGULIERUNG - FAHRERHAUS KURZ (CODE F07) OHNE NIVEAUREGULIERUNG</description>
+                <id>53623403</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSTOCKSCHALTER</description>
+                <id>53623802</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SPANNUNGSWANDLER 12V</description>
+                <id>53623906</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF.ELEKTRONIK AN FHS-RUECKWAND</description>
+                <id>53624510</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORBAUKLAPPE</description>
+                <id>53624702</id>
+                <designGroup>75</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER PANZERKABEL</description>
+                <id>53625101</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53625303</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. ELEKTR. LEITG. AM FAHRERHAUS</description>
+                <id>53625304</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER FUER STECKVERBINDUNGEN</description>
+                <id>53625406</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SONNENBLENDE INNEN</description>
+                <id>53625506</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SONNENBLENDE INNEN - SONNENBLENDE</description>
+                <id>53625509</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTEGRIFF - HALTEGRIFF</description>
+                <id>53625602</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTEGRIFF AN DACH - MITTENSITZ</description>
+                <id>53625702</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORHANGLAUFSCHIENE QUER - FAHRERHAUS KURZ (CODE F07) FAHRERHAUS LANG (CODE F04)</description>
+                <id>53625902</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSSENSPIEGEL - BREITE:2500,MANUELL WEITWINKEL</description>
+                <id>53626016</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FIRMENZEICHEN</description>
+                <id>53626201</id>
+                <designGroup>75</designGroup>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TYPENKENNZAHL TUER - 1419</description>
+                <id>53626328</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG INSTRUMENTENTAFEL</description>
+                <id>53626401</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER INSTRUMENTENTAFEL - INSTRUMENTENTAFEL</description>
+                <id>53626703</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ROHRTRAGWERK INSTRUMENTENTAFEL</description>
+                <id>53627802</id>
+                <designGroup>42</designGroup>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG STIRNWAND</description>
+                <id>53628103</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ERSATZRADHALTERUNG</description>
+                <id>53628903</id>
+                <designGroup>40</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SITZ LI</description>
+                <id>53629382</id>
+                <designGroup>91</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHWINGSITZ RECHTS- HERSTELLERNAME GRAMMER ODER ISRI MIT SA-STRICH ERMITTELN</description>
+                <id>53629432</id>
+                <designGroup>89</designGroup>
+                <designGroup>91</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRERHAUSENTRIEGELUNG - FAHRERHAUS KURZ (CODE F07)</description>
+                <id>53629501</id>
+                <designGroup>89</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLIESSGARNITUR - 2 SCHLIESSZYLINDER</description>
+                <id>53629603</id>
+                <designGroup>46</designGroup>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG A-SAEULE,VORBAU</description>
+                <id>53629904</id>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630601</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630602</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630604</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630605</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630701</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630802</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630806</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630807</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630808</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630809</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630812</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630813</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630814</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630815</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630816</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630817</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630818</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630821</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53630824</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631024</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631323</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631324</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631325</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631326</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53631327</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53632001</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53632007</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53632011</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLAUCH FUER SCHEIBENWASCHANLAGE</description>
+                <id>53671101</id>
+                <designGroup>86</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHEIBENWASCHBEHAELTER - SCHEIBENWISCHERANLAGE</description>
+                <id>53671201</id>
+                <designGroup>86</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SICHERHEITSGURT</description>
+                <id>53671305</id>
+                <designGroup>69</designGroup>
+                <designGroup>91</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53671502</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. LENKUNGSBOCK</description>
+                <id>53671601</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKOELLEITUNGEN FAHRGESTELLSEITIG</description>
+                <id>53671711</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKUNGSBEFESTIGUNG - LS 6; 4X2</description>
+                <id>53671802</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKOELLEITUNGEN AN PUMPE</description>
+                <id>53671901</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSPINDEL AN LENKGETRIEBE</description>
+                <id>53672001</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSTANGE - LS 6; 4X2; VORDERACHSLAST 6,1 T</description>
+                <id>53672202</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER LENKOELLEITUNGEN</description>
+                <id>53672301</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKOELBEHAELTER</description>
+                <id>53672401</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKOELLEITUNG MOTORSEITIG - BEI SCHALTGETRIEBE</description>
+                <id>53672501</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53672602</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KANTENSCHUTZ DACHKLAPPE/SCHIEBE-HEBEDACH - DACHKLAPPE,DACH NIEDER FAHRERHAUS KURZ,MITTELLANG UND LANG</description>
+                <id>53672701</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFFBEHAELTER - KRAFTSTOFFBEHAELTER 210 L</description>
+                <id>53672903</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TANKVERSCHLUSS</description>
+                <id>53673602</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TANKVERSCHLUSS</description>
+                <id>53673608</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER KRAFTSTOFFLEITUNG</description>
+                <id>53674211</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER KRAFTSTOFFLEITUNG</description>
+                <id>53674212</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFFLEITUNGEN</description>
+                <id>53674426</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG DACH VORN</description>
+                <id>53674549</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG A-SAEULE - VERKLEIDUNG</description>
+                <id>53674802</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG E-BAUSTEIN</description>
+                <id>53675115</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DECKEL ANSTELLE MITTENSITZ</description>
+                <id>53675202</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUERDICHTUNG</description>
+                <id>53675401</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSPUFFROHR VORN</description>
+                <id>53675636</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HAUPTSCHALLDAEMPFER</description>
+                <id>53675822</id>
+                <designGroup>47</designGroup>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LADELUFTSCHLAUCH</description>
+                <id>53675901</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLERSCHLAEUCHE - OM 904LA</description>
+                <id>53676001</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLERSCHLAEUCHE - OM 904LA</description>
+                <id>53676002</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLERLAGERUNG</description>
+                <id>53676101</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLMODUL</description>
+                <id>53676206</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUEFTERHAUBE - OM 904LA;LUEFTER D=604 MM</description>
+                <id>53676301</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLWASSERAUSGLEICHBEHAELTER</description>
+                <id>53676501</id>
+                <designGroup>50</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ENTLUEFTUNG FAHRERHAUS</description>
+                <id>53678101</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHKLAPPE - DACHLUKE</description>
+                <id>53678202</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HEIZUNG</description>
+                <id>53678303</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>LUFTLEITTEIL UND HEIZUNGSFILTER - POLLENFILTER</description>
+                <id>53678601</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLIESSKEIL,SCHLIESSBOLZEN - TUEREN</description>
+                <id>53678702</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUER ROHBAU</description>
+                <id>53678904</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUER ROHBAU</description>
+                <id>53679004</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FENSTERANLAGE TUER</description>
+                <id>53679113</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUERHALTER</description>
+                <id>53679201</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUERGRIFF - TUER LINKS UND RECHTS</description>
+                <id>53679303</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG TUER</description>
+                <id>53679507</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53679801</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTANSAUGUNG - GROSSE PATRONE OHNE FSS,4X2</description>
+                <id>53679902</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53680001</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTFUEHRUNG ROHLUFTSEITIG - HOHES FAHRERHAUS</description>
+                <id>53681101</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTFUEHRUNG ROHLUFTSEITIG</description>
+                <id>53681104</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTFUEHRUNG REINLUFTSEITIG</description>
+                <id>53681207</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTANSAUGUNG</description>
+                <id>53681310</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOTFLUEGEL VORDERACHSE</description>
+                <id>53681704</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER, BEFESTIGUNG KOTFLUEGEL VORN</description>
+                <id>53681903</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV UMRISSLEUCHTE, DACHRAHMEN SEITLICH - WEISS</description>
+                <id>53682601</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINSTIEGLEUCHTE,STOPFEN - OHNE LEUCHTE</description>
+                <id>53682801</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV INNENBELEUCHTUNG, ELEKTRISCHE AUSRUESTUNG</description>
+                <id>53682906</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZIGARETTENANZUENDER</description>
+                <id>53683004</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUERKONTAKTSCHALTER</description>
+                <id>53683301</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHEIBENWISCHERANLAGE - SCHEIBENWASCHANLAGE</description>
+                <id>53683401</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHEIBENWISCHERARM,-BLATT</description>
+                <id>53683501</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORBAUBLENDE SCHEIBENWISCHERANLAGE</description>
+                <id>53683601</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DUESE SCHEIBENWASCHANLAGE IM HANDGRIFF</description>
+                <id>53683701</id>
+                <designGroup>86</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG BODEN FUER KABELVERLEGUNG</description>
+                <id>53683901</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANTENNE</description>
+                <id>53684003</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANTENNE</description>
+                <id>53684004</id>
+                <designGroup>54</designGroup>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KUEHLERSCHLAEUCHE - OM 904/906LA</description>
+                <id>53684802</id>
+                <designGroup>50</designGroup>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. KLIMALEITUNGEN - OM 904LA,OHNE KLIMAANLAGE FAHRERHAUS TIEF</description>
+                <id>53685002</id>
+                <designGroup>50</designGroup>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VORMONTAGE - PUFFER AN HALTER</description>
+                <id>53685301</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSVERLEGUNG; TRENNSTELLE FAHRERHAUS INNEN</description>
+                <id>53685477</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSVERLEGUNG; TRENNSTELLE FAHRERHAUS INNEN</description>
+                <id>53685484</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSVERLEGUNG; TRENNSTELLE FAHRERHAUS INNEN</description>
+                <id>53685486</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE - LEITUNG AN STIRNWAND</description>
+                <id>53685501</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FESTSTELLBREMSVENTIL</description>
+                <id>53685805</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER DRUCKLUFTLEITUNGSSATZ,AN RAHMENLAENGSTRAEGER</description>
+                <id>53686041</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLUSSLEUCHTENHALTER</description>
+                <id>53686310</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTHEBEL - MOTOR HOCHLIEGEND</description>
+                <id>53686501</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTGESTAENGE</description>
+                <id>53686601</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53686701</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTROHR</description>
+                <id>53686801</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER SCHALTUNG</description>
+                <id>53686903</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHALTBILDAUFKLEBER</description>
+                <id>53687001</id>
+                <designGroup>26</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER STOSSFAENGER</description>
+                <id>53688202</id>
+                <designGroup>52</designGroup>
+                <designGroup>88</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER OELEINFUELLROHR</description>
+                <id>53688302</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV OELEINFUELLUNG - R4</description>
+                <id>53688403</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHYDRAULIK FAHRERHAUS</description>
+                <id>53688502</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHYDRAULIK FAHRERHAUS - HOCHLAGE; FAHRERHAUS</description>
+                <id>53688601</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHYDRAULIK BEFESTIGUNGSTEILE</description>
+                <id>53688801</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHYDRAULIK, HYDRAULIKSCHLAUCH</description>
+                <id>53688907</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KIPPHYDRAULIK, HYDRAULIKSCHLAUCH</description>
+                <id>53688908</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER HANDPUMPE</description>
+                <id>53689003</id>
+                <designGroup>55</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53689101</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINBAU WELLENSTRANG - AN GETRIEBE</description>
+                <id>53689220</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINBAU WELLENSTRANG - GELENKWELLE AN GETRIEBE UND HINTERACHSE</description>
+                <id>53689221</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINBAU WELLENSTRANG - RAHMEN</description>
+                <id>53689222</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAGER AN KONSOLE</description>
+                <id>53689533</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GELENKWELLE VORN</description>
+                <id>53689653</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GELENKWELLE HINTEN - GELENKWELLENLAGER ZUR HINTERACHSE</description>
+                <id>53689746</id>
+                <designGroup>41</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53689804</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSAEULE BEFESTIGUNG</description>
+                <id>53690001</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSAEULE VERSTELLBAR</description>
+                <id>53690109</id>
+                <designGroup>46</designGroup>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSPINDEL - ABDECKUNG REIHENMOTOR BIS 15 T</description>
+                <id>53690201</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKRAD</description>
+                <id>53690303</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LENKSPINDEL - REIHENMOTOR BIS 15 T FAHRERHAUS LANG, HOCHGESETZT</description>
+                <id>53690401</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEF. PEDALANLAGE</description>
+                <id>53690601</id>
+                <designGroup>29</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV PEDALANLAGE UND KUPPLUNGSGEBERZYLINDER</description>
+                <id>53690708</id>
+                <designGroup>25</designGroup>
+                <designGroup>29</designGroup>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BETRIEBSBREMSVENTIL</description>
+                <id>53690801</id>
+                <designGroup>29</designGroup>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DICHTUNG PEDALLAGERBOCK</description>
+                <id>53690901</id>
+                <designGroup>29</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV AUSGLEICHSBEHAELTER</description>
+                <id>53691001</id>
+                <designGroup>25</designGroup>
+                <designGroup>29</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRPEDAL</description>
+                <id>53691104</id>
+                <designGroup>29</designGroup>
+                <designGroup>30</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRERHAUS-LAGERUNG VORN</description>
+                <id>53691201</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FAHRERHAUS-LAGERUNG VORN</description>
+                <id>53691305</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FHS-VERRIEGELUNG,TRAEGER,LAGERBOCK,HYDRAULIKANSCHLUSS</description>
+                <id>53691406</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV NETZ OBEN RUECKWAND</description>
+                <id>53692205</id>
+                <designGroup>84</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV FEUERLOESCHER</description>
+                <id>53692402</id>
+                <designGroup>86</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDAEMPFUNG</description>
+                <id>53692510</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WASSERABLAUF UEBER LUFTANSAUGUNG</description>
+                <id>53693101</id>
+                <designGroup>75</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SPANNBAND KRAFTSTOFFBEHAELTER - 210 L</description>
+                <id>53693901</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KONSOLE FUER KRAFTSTOFFBEHAELTER</description>
+                <id>53694008</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KONSOLE FUER KRAFTSTOFFBEHAELTER</description>
+                <id>53694032</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KONSOLE FUER KRAFTSTOFFBEHAELTER</description>
+                <id>53694033</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KRAFTSTOFF-WASSERABSCHEIDER</description>
+                <id>53694104</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WAERMESCHUTZBLECH</description>
+                <id>53694308</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIETRENNSCHALTER</description>
+                <id>53695003</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIETRENNSCHALTER</description>
+                <id>53695004</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANHAENGERSTECKDOSE</description>
+                <id>53695201</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRISCHE LEITUNG ANTENNE</description>
+                <id>53695405</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINBAURAHMEN FUER SCHALTER</description>
+                <id>53696604</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKSCHALTER</description>
+                <id>53697104</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STECKDOSE 12V</description>
+                <id>53697301</id>
+                <designGroup>54</designGroup>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV WERKZEUG UND ZUBEHOER</description>
+                <id>53697601</id>
+                <designGroup>89</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>BEFESTIGUNGSTEILE FUER ELEKTRISCHEN LEITUNGSSATZ</description>
+                <id>53697801</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>BEFESTIGUNGSTEILE FUER ELEKTRISCHEN LEITUNGSSATZ</description>
+                <id>53697802</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>BEFESTIGUNGSTEILE FUER ELEKTRISCHEN LEITUNGSSATZ</description>
+                <id>53697803</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BATTERIEN UND BEFESTIGUNGSTEILE</description>
+                <id>53697901</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANHAENGERSTECKDOSE</description>
+                <id>53698001</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCHLUSSLEUCHTEN</description>
+                <id>53698101</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSTAERKUNG VORN AN LAENGSTRAGER</description>
+                <id>53698201</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SEITENMARKIERUNGSLEUCHTE</description>
+                <id>53698401</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER AUSPUFFTOPF VORN</description>
+                <id>53699805</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER AUSPUFFTOPF HINTEN</description>
+                <id>53699909</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER AUSPUFFTOPF VORN AN RAHMEN</description>
+                <id>53800103</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSFAENGER HINTEN</description>
+                <id>53805105</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOSSFAENGER HINTEN</description>
+                <id>53805203</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV TUERBEFESTIGUNG - SEITENTUER VORN</description>
+                <id>53805801</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER GERAEUSCHKAPSEL MOTOR, SEITLICH</description>
+                <id>53806029</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER GERAEUSCHKAPSEL MOTOR, SEITLICH</description>
+                <id>53806030</id>
+                <designGroup>52</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53810201</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53810417</id>
+                <designGroup>32</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>BEFESTIGUNG LAENGSTRAEGER VORN AN LAENGSTRAEGER HINTEN</description>
+                <id>53811501</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MODULTRAEGER SICHERUNGEN</description>
+                <id>53812504</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTROSCHRANK TRAEGER UND HALTER</description>
+                <id>53813402</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTROSCHRANK TRAEGER UND HALTER</description>
+                <id>53813403</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTROSCHRANK TRAEGER UND HALTER</description>
+                <id>53813404</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTROSCHRANK TRAEGER UND HALTER</description>
+                <id>53813405</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53813502</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRONIK; WS</description>
+                <id>53813607</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GUMMITUELLE FUER ELEKTRISCHE LEITUNG</description>
+                <id>53813703</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSBEF. AN STARTER UND GENERATOR</description>
+                <id>53813902</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LEITUNGSBEF. AN STARTER UND GENERATOR</description>
+                <id>53813903</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53814211</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRISCHE LEITUNGEN</description>
+                <id>53815808</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LAUTSPRECHER,CB-FUNK</description>
+                <id>53818103</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANTENNE</description>
+                <id>53818207</id>
+                <designGroup>82</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER BATTERIETRENNSCHALTER</description>
+                <id>53818806</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53819101</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STOPFEN/ABDECKUNG</description>
+                <id>53819201</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53819301</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53819401</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53819501</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53819601</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABWEISLEISTE</description>
+                <id>53821201</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV MOTORLEITUNGSSATZ</description>
+                <id>53822080</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BRUESTUNG-/VORBAU-LEITUNGSSATZ</description>
+                <id>53822220</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BRUESTUNG-/VORBAU-LEITUNGSSATZ</description>
+                <id>53822227</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BRUESTUNG-/VORBAU-LEITUNGSSATZ</description>
+                <id>53822230</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BRUESTUNG-/VORBAU-LEITUNGSSATZ</description>
+                <id>53822235</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DACHLEITUNGSSATZ</description>
+                <id>53822320</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ANSCHLUSSTEILE,BREMSSCHLAEUCHE AN BREMSGERAETE</description>
+                <id>53823042</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTBEHAELTER GERAETETRAEGER</description>
+                <id>53823423</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTBEHAELTER GERAETETRAEGER</description>
+                <id>53823425</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTBEHAELTER GERAETETRAEGER</description>
+                <id>53823428</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KOMBI-INSTRUMENT</description>
+                <id>53824707</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ACHSENTLUEFTUNG</description>
+                <id>53826504</id>
+                <designGroup>35</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG OBEN,DEFROSTKANAL INSTRUMENTENTAFEL</description>
+                <id>53826701</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV INSTRUMENTENTAFEL,FAHRERMODUL OBEN</description>
+                <id>53826805</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV INSTRUMENTENTAFEL,FAHRERMODUL OBEN</description>
+                <id>53826806</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG A-SAEULE,UNTEN - VERKLEIDUNG FUSSRAUM</description>
+                <id>53826901</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTKANAL INSTRUMENTENTAFEL - LUFTKANAL</description>
+                <id>53827101</id>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG A-SAEULE</description>
+                <id>53828101</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG FUSSRAUM</description>
+                <id>53828202</id>
+                <designGroup>68</designGroup>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERLAENGERUNGSLEITUNG DREHZAHLFUEHLER</description>
+                <id>53829403</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERLAENGERUNGSLEITUNG DREHZAHLFUEHLER</description>
+                <id>53829404</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINLAGE INSTRUMENTENTAFEL</description>
+                <id>53829502</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KREUZWIPPENSCHALTER</description>
+                <id>53829802</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG SCHALTER</description>
+                <id>53830101</id>
+                <designGroup>72</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDECKUNG SCHALTER</description>
+                <id>53830102</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HYDRAULIKLEITUNG KUPPLUNGSVERSTAERKER</description>
+                <id>53830301</id>
+                <designGroup>25</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV EINLAGE INSTRUMENTENTAFEL</description>
+                <id>53830408</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTROSCHRANK TRAEGER UND HALTER</description>
+                <id>53830502</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERSTAERKUNG UNTERBAU</description>
+                <id>53830601</id>
+                <designGroup>61</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV STUETZE QUERTRAEGER INSTRUMENTENTAFEL - FAHRERHAUS KURZ (CODE F07) FAHRERHAUS LANG (CODE F04) VIERZYLINDER</description>
+                <id>53830902</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG INSTRUMENTENFAFEL - VERKLEIDUNG FUSSRAUM</description>
+                <id>53831001</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTDUESE,INSTRUMENTENTAFEL - INSTRUMENTENTAFEL</description>
+                <id>53831301</id>
+                <designGroup>68</designGroup>
+                <designGroup>83</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV INSTRUMENTENTAFEL,BEIFAHRERMODUL,VERKLEIDUNG OBEN - VERKLEIDUNG OBEN</description>
+                <id>53831601</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV INSTRUMENTENTAFEL,BEIFAHRERMODUL,VERKLEIDUNG OBEN</description>
+                <id>53831604</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53831705</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53831802</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53831804</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKLEIDUNG STIRNWAND - FAHRERHAUS KURZ (CODE F07) FAHRERHAUS LANG (CODE F04) VIERZYLINDER</description>
+                <id>53831902</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HINWEISSCHILD</description>
+                <id>53832213</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ZIERSTREIFEN</description>
+                <id>53832305</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HALTER KLEIDERSACK</description>
+                <id>53833403</id>
+                <designGroup>81</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABLAGE UEBER FAHRER UND BEIFAHRER - ANBAUTEILE</description>
+                <id>53833602</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABLAGE UEBER FAHRER UND BEIFAHRER</description>
+                <id>53833604</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDAEMPFUNG - DAEMPFUNG BODEN</description>
+                <id>53834301</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ABDAEMPFUNG</description>
+                <id>53834303</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV GERAEUSCHDAEMPFUNG RUECKWAND</description>
+                <id>53834402</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ELEKTRONIK FMR</description>
+                <id>53834505</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SERVOLENKUNG - ZF 8097</description>
+                <id>53835001</id>
+                <designGroup>46</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53836908</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53837001</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>ADBLUE-BEHAELTER</description>
+                <id>53837207</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>HALTER ADBLUE</description>
+                <id>53837404</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>PUMPE ADBLUE/ARLA32</description>
+                <id>53837503</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV LUFTTROCKNER MIT INTEGRIERTEM DRUCKREGLER</description>
+                <id>53838010</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53838902</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>HINWEISSCHILD</description>
+                <id>53839002</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE QUERTRAEGER</description>
+                <id>53840301</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE QUERTRAEGER</description>
+                <id>53840401</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE QUERTRAEGER</description>
+                <id>53840601</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE QUERTRAEGER</description>
+                <id>53840701</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE QUERTRAEGER</description>
+                <id>53840801</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE</description>
+                <id>53841501</id>
+                <designGroup>31</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV SCR- STEUERGERAET</description>
+                <id>53844404</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNGSTEILE SCR</description>
+                <id>53844502</id>
+                <designGroup>49</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ADBLUE LEITUNG</description>
+                <id>53847615</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ADBLUE LEITUNG</description>
+                <id>53847616</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV ADBLUE LEITUNG</description>
+                <id>53847617</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV RAHMENLEITUNGSSATZ</description>
+                <id>53848059</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG KRAFTSTOFFLEITUNG</description>
+                <id>53848501</id>
+                <designGroup>47</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53849404</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV VERKL.RUECKW</description>
+                <id>53849627</id>
+                <designGroup>69</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53849789</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53849799</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53850102</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV HAUPTLEITUNGSSATZ</description>
+                <id>53851128</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852403</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852404</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852405</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852414</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852416</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BEFESTIGUNG BATTERIEKABEL</description>
+                <id>53852423</id>
+                <designGroup>54</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV BODENBELAG</description>
+                <id>53853413</id>
+                <designGroup>68</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <id>53853705</id>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854157</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854158</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854161</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854164</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854183</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854186</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV DRUCKLUFTLEITUNGSSATZ</description>
+                <id>53854187</id>
+                <designGroup>42</designGroup>
+            </saa>
+            <saa>
+                <amountPerSaa>1</amountPerSaa>
+                <description>SV KLEBESCHILD</description>
+                <id>53855101</id>
+                <designGroup>54</designGroup>
+                <designGroup>58</designGroup>
+            </saa>
+        </activeAssignedFpd>
+        <activeProductDate>
+            <dateOfFirstRegistration>20160831</dateOfFirstRegistration>
+            <shipmentDate>20160831</shipmentDate>
+            <technicalApprovalDate>20160712</technicalApprovalDate>
+            <validSince>20160906</validSince>
+            <objectId>272532301442</objectId>
+            <xmlId>_1</xmlId>
+        </activeProductDate>
+        <activeProductionInfo>
+            <originAxleFront1Id>733895S0712442</originAxleFront1Id>
+            <originAxleFront1ObjectVarNo>X006051704</originAxleFront1ObjectVarNo>
+            <originAxleRear1Id>746983S1129784</originAxleRear1Id>
+            <originAxleRear1ObjectVarNo>X004053183</originAxleRear1ObjectVarNo>
+            <originCabId>958860500629</originCabId>
+            <originCabObjectVarNo>X014907561</originCabObjectVarNo>
+            <originEngineId>924989U1183813</originEngineId>
+            <originEngineObjectVarNo>X009063699</originEngineObjectVarNo>
+            <originTransmissionId>71262500527517</originTransmissionId>
+            <originTransmissionObjectVarNo>X002052499</originTransmissionObjectVarNo>
+            <validSince>20160902</validSince>
+            <xmlId>_2</xmlId>
+            <objectId>272466494716</objectId>
+        </activeProductionInfo>
+        <activeState>
+            <axle>
+                <id>733895S0712442</id>
+                <typeOf>front1</typeOf>
+                <modelDesignation>733895</modelDesignation>
+                <objectNumberVariant>X006051704</objectNumberVariant>
+                <activeState />
+            </axle>
+            <axle>
+                <id>746983S1129784</id>
+                <typeOf>rear1</typeOf>
+                <modelDesignation>746983</modelDesignation>
+                <objectNumberVariant>X004053183</objectNumberVariant>
+                <activeState />
+            </axle>
+            <cab>
+                <id>958860500629</id>
+                <modelDesignation>958860</modelDesignation>
+                <objectNumberVariant>X014907561</objectNumberVariant>
+                <activeState />
+            </cab>
+            <engine>
+                <dataCardAvailable>true</dataCardAvailable>
+                <id>924989U1183813</id>
+                <modelDesignation>924989</modelDesignation>
+                <activeState>
+                    <status>delivered</status>
+                </activeState>
+            </engine>
+            <paint>
+                <code>3530</code>
+                <designation>lavarot</designation>
+                <usage>paint1</usage>
+            </paint>
+            <tireData>
+                <content>PIRELLI</content>
+                <typeOf>tire1</typeOf>
+                <objectId>272449537083</objectId>
+            </tireData>
+            <tireData>
+                <content>PIRELLI</content>
+                <typeOf>tire3</typeOf>
+                <objectId>272449537084</objectId>
+            </tireData>
+            <transmission>
+                <id>71262500527517</id>
+                <modelDesignation>712625</modelDesignation>
+                <objectNumberVariant>X002052499</objectNumberVariant>
+                <activeState />
+            </transmission>
+            <cvRims>BORLEM</cvRims>
+            <orderNumber>1677587413</orderNumber>
+            <plant>P1540</plant>
+            <status>delivered</status>
+            <steeringInfoId>766496    071467</steeringInfoId>
+            <vin>9BM958134GB041434</vin>
+        </activeState>
+    </vehicleDatacard>
+    <reference>
+        <productgroup>
+            <id>3</id>
+            <designation>TRUCK</designation>
+            <type />
+        </productgroup>
+        <company>
+            <id>1</id>
+            <designation>Daimler Truck AG</designation>
+        </company>
+    </reference>
+</vehicle>

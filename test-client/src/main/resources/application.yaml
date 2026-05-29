@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test-client
+  threads:
+    virtual:
+      enabled: true
+
+ibm:
+  mq:
+    queue-manager: QM1
+    conn-name: localhost(1414)
+    channel: DEV.APP.SVRCONN
+    user: ${IBM_MQ_USER}
+    password: ${IBM_MQ_PASSWORD}
