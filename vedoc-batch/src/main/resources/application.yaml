@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vedoc-batch
+  mongodb:
+    uri: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@localhost:27017/vedoc?authSource=admin
+
+ibm:
+  cos:
+    endpoint: ${IBM_COS_ENDPOINT}
+    location: ${IBM_COS_LOCATION}
+    bucket: ${IBM_COS_BUCKET}
+    api-key: ${IBM_COS_API_KEY}
+    service-instance-id: ${IBM_COS_SERVICE_INSTANCE_ID}

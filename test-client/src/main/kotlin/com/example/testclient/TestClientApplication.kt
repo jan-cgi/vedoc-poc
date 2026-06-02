@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Bean
 import org.springframework.core.io.Resource
 import org.springframework.jms.core.JmsTemplate
 import org.springframework.scheduling.annotation.EnableAsync
+import tools.jackson.databind.json.JsonMapper
+import tools.jackson.dataformat.xml.XmlMapper
 import java.nio.charset.Charset
 
 @EnableAsync
@@ -17,11 +19,14 @@ class TestClientApplication(
     private val jmsTemplate: JmsTemplate,
     private val asyncClient: AsyncClient,
     @Value("classpath:example-data/9BM9581341H041434.xml") private val file1: Resource,
-    @Value("classpath:example-data/WDB9700751K874214.xml") private val file2: Resource
+    @Value("classpath:example-data/WDB9700751K874214.xml") private val file2: Resource,
+    private val jsonMapper: JsonMapper,
+    private val xmlMapper: XmlMapper,
 ) {
 
     @Bean
     fun run() = CommandLineRunner {
+
         jmsTemplate.convertAndSend("DEV.QUEUE.1", file2.getContentAsString(Charset.defaultCharset()))
 
         Thread.sleep(1000)
