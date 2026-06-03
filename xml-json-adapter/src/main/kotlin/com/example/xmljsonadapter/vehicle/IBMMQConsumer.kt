@@ -13,14 +13,14 @@ class IBMMQConsumer(
     private val xmlMapper: XmlMapper
 ) {
 
-    @JmsListener(destination = "DEV.QUEUE.1")
+    @JmsListener(destination = "DEV.QUEUE.VEHICLE.CREATE")
     fun createVehicle(vehicleXML: String) {
         val vehicle = xmlMapper.readValue<Vehicle>(vehicleXML)
         val vehicleJson = jsonMapper.writeValueAsString(vehicle)
         rabbitMQProducer.createVehicle(vehicleJson)
     }
 
-    @JmsListener(destination = "DEV.QUEUE.2")
+    @JmsListener(destination = "DEV.QUEUE.VEHICLE.GET.REQUEST")
     fun readVehicle(fin: String): String {
         val vehicleJson = rabbitMQProducer.getVehicle(fin)
         return runCatching {

@@ -30,3 +30,5 @@ services:
       MQ_QMGR_NAME: QM1
       MQ_APP_PASSWORD: ${IBM_MQ_PASSWORD} # user = app
       MQ_ADMIN_PASSWORD: ${IBM_MQ_PASSWORD} # user = admin
+    volumes:
+      - ./config.mqsc:/etc/mqm/config.mqsc

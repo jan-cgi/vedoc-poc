@@ -14,6 +14,7 @@ class RabbitMQConfig {
         const val VEHICLE_EXCHANGE = "vedoc.vehicle.exchange"
         const val VEHICLE_CREATE_QUEUE = "vedoc.vehicle.create.queue"
         const val VEHICLE_CREATE_KEY = "vedoc.vehicle.create.key"
+        const val VEHICLE_UPDATE_KEY = "vedoc.vehicle.update.key"
         const val VEHICLE_GET_REQUEST_QUEUE = "vedoc.vehicle.get.request.queue"
         const val VEHICLE_GET_REQUEST_KEY = "vedoc.vehicle.get.request.key"
     }

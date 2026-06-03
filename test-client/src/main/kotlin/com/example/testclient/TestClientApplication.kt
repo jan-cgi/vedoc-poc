@@ -27,11 +27,11 @@ class TestClientApplication(
     @Bean
     fun run() = CommandLineRunner {
 
-        jmsTemplate.convertAndSend("DEV.QUEUE.1", file2.getContentAsString(Charset.defaultCharset()))
+        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
 
         Thread.sleep(1000)
 
-        val response = jmsTemplate.sendAndReceive("DEV.QUEUE.2", "DEV.QUEUE.3") { session ->
+        val response = jmsTemplate.sendAndReceive("DEV.QUEUE.VEHICLE.GET.REQUEST", "DEV.QUEUE.VEHICLE.GET.RESPONSE") { session ->
             session.createTextMessage("WDB9700751K874214")
         } as TextMessage
 
