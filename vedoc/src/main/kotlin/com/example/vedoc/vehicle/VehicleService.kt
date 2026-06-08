@@ -14,11 +14,15 @@ class VehicleService(
 ) {
 
     fun getVehicle(fin: String): Vehicle? {
-        return vehicleRepository.findByVehicleDatacardFin(fin)
+        return vehicleRepository.findFirstByVehicleDatacardFinOrderByDocumentVersionDesc(fin)
+    }
+
+    fun createVehicle(vehicle: Vehicle): Vehicle {
+        return vehicleRepository.save(vehicle)
     }
 
     fun updateVehicle(fin: String, vehicleUpdate: VehicleDTO): Vehicle? {
-        val vehicle = vehicleRepository.findByVehicleDatacardFin(fin) ?: return null
+        val vehicle = vehicleRepository.findFirstByVehicleDatacardFinOrderByDocumentVersionDesc(fin) ?: return null
 
         val mergedVehicle = vehicle.merge(vehicleUpdate)
         val updatedVehicle = vehicleRepository.save(mergedVehicle)
@@ -33,6 +37,8 @@ class VehicleService(
     }
 
     private fun Vehicle.merge(update: VehicleDTO) = copy(
+        id = null,
+        documentVersion = this.documentVersion + 1,
         vehicleDatacard = vehicleDatacard.merge(update.vehicleDatacard),
         reference = reference.merge(update.reference)
     )

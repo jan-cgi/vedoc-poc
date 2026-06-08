@@ -4,6 +4,6 @@ import org.springframework.data.mongodb.repository.MongoRepository
 
 interface VehicleRepository : MongoRepository<Vehicle, String> {
 
-    fun findByVehicleDatacardFin(fin: String): Vehicle?
+    fun findFirstByVehicleDatacardFinOrderByDocumentVersionDesc(fin: String): Vehicle?
 
 }
