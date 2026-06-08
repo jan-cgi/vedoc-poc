@@ -1,4 +1,4 @@
-package com.example.vedocbatch.config
+package com.example.vedoc.config
 
 import com.ibm.cos.v2.auth.credentials.AwsCredentials
 import com.ibm.cos.v2.auth.credentials.StaticCredentialsProvider
@@ -8,14 +8,15 @@ import com.ibm.cos.v2.services.s3.S3Client
 import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.context.annotation.Profile
 import java.net.URI
 
-
+@Profile("batch")
 @Configuration
 @EnableConfigurationProperties(CosProperties::class)
 class CosConfig {
 
-    @Bean(destroyMethod = "close")
+    @Bean
     fun cosClient(properties: CosProperties): S3Client {
         val credentials: AwsCredentials = BasicIBMOAuthCredentials(
             properties.apiKey,

@@ -1,15 +1,17 @@
-package com.example.vedocbatch.vehicle
+package com.example.vedoc.vehicle
 
-import com.example.vedocbatch.config.CosProperties
+import com.example.vedoc.config.CosProperties
 import com.ibm.cos.v2.services.s3.S3Client
 import com.ibm.cos.v2.services.s3.model.GetObjectRequest
 import com.ibm.cos.v2.services.s3.model.ListObjectsV2Request
+import org.springframework.context.annotation.Profile
 import org.springframework.stereotype.Service
 import tools.jackson.dataformat.xml.XmlMapper
 import tools.jackson.module.kotlin.readValue
 
+@Profile("batch")
 @Service
-class VehicleService(
+class CosVehicleImportService(
     private val s3Client: S3Client,
     private val cosProperties: CosProperties,
     private val vehicleRepository: VehicleRepository,

@@ -3,9 +3,11 @@ package com.example.vedoc.vehicle
 import com.example.vedoc.config.RabbitMQConfig.Companion.VEHICLE_EXCHANGE
 import com.example.vedoc.config.RabbitMQConfig.Companion.VEHICLE_UPDATE_KEY
 import org.springframework.amqp.rabbit.core.RabbitTemplate
+import org.springframework.context.annotation.Profile
 import org.springframework.stereotype.Service
 import tools.jackson.databind.json.JsonMapper
 
+@Profile("!batch")
 @Service
 class VehicleService(
     private val vehicleRepository: VehicleRepository,

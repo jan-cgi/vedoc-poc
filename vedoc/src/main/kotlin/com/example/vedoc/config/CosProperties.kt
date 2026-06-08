@@ -1,4 +1,4 @@
-package com.example.vedocbatch.config
+package com.example.vedoc.config
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 

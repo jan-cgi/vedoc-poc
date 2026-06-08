@@ -20,10 +20,14 @@ repositories {
 }
 
 dependencies {
+    implementation("com.ibm.cos.v2:cos-java-sdk:1.0.1") {
+        exclude(group = "org.slf4j", module = "slf4j-simple")
+    }
     implementation("org.springframework.boot:spring-boot-starter-amqp")
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("tools.jackson.dataformat:jackson-dataformat-xml")
     implementation("tools.jackson.module:jackson-module-kotlin")
     testImplementation("org.springframework.boot:spring-boot-starter-amqp-test")
     testImplementation("org.springframework.boot:spring-boot-starter-data-mongodb-test")
