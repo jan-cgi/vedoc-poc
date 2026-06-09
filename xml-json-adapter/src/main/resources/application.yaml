@@ -2,9 +2,11 @@ spring:
   application:
     name: xml-json-adapter
   jms:
+    cache:
+      session-cache-size: 32
     listener:
-      min-concurrency: 10
-      max-concurrency: 20
+      min-concurrency: 8
+      max-concurrency: 32
   rabbitmq:
     host: localhost
     port: 5672
@@ -12,8 +14,12 @@ spring:
     password: ${RABBITMQ_PASSWORD}
     listener:
       simple:
-        concurrency: 10
-        max-concurrency: 20
+        concurrency: 8
+        max-concurrency: 32
+        prefetch: 8
+  threads:
+    virtual:
+      enabled: true
 
 ibm:
   mq:

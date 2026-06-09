@@ -10,8 +10,12 @@ spring:
     password: ${RABBITMQ_PASSWORD}
     listener:
       simple:
-        concurrency: 10
-        max-concurrency: 20
+        concurrency: 8
+        max-concurrency: 32
+        prefetch: 8
+  threads:
+    virtual:
+      enabled: true
 
 ibm:
   cos:
