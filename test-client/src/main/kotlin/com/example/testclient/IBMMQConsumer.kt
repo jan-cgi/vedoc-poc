@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component
 @Component
 class IBMMQConsumer {
 
-    @JmsListener(destination = "DEV.QUEUE.VEHICLE.UPDATE")
+    @JmsListener(destination = "DEV.QUEUE.VEHICLE.UPDATE.EVENT")
     fun updateVehicle(vehicleXML: String) {
         println(vehicleXML)
     }

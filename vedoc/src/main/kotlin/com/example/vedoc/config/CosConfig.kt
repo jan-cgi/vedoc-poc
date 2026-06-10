@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
 import java.net.URI
 
-@Profile("batch")
+@Profile("batch-file-sync")
 @Configuration
 @EnableConfigurationProperties(CosProperties::class)
 class CosConfig {

@@ -4,7 +4,7 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Profile
 import org.springframework.stereotype.Component
 
-@Profile("batch")
+@Profile("batch-file-sync")
 @Component
 class CosImportRunner(
     private val cosVehicleImportService: CosVehicleImportService

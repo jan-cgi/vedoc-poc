@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service
 import tools.jackson.dataformat.xml.XmlMapper
 import tools.jackson.module.kotlin.readValue
 
-@Profile("batch")
+@Profile("batch-file-sync")
 @Service
 class CosVehicleImportService(
     private val s3Client: S3Client,

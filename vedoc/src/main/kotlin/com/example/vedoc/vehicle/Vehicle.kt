@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document
 data class Vehicle(
     @Id
     val id: String? = null,
-    val documentVersion: Int = 1,
     val vehicleDatacard: VehicleDatacard? = null,
     val reference: Reference? = null,
 )

@@ -1,49 +1,142 @@
 package com.example.vedoc.vehicle
 
-import com.example.vedoc.config.RabbitMQConfig.Companion.VEHICLE_EXCHANGE
-import com.example.vedoc.config.RabbitMQConfig.Companion.VEHICLE_UPDATE_KEY
-import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.context.annotation.Profile
 import org.springframework.stereotype.Service
-import tools.jackson.databind.json.JsonMapper
+import org.springframework.transaction.annotation.Transactional
 
-@Profile("!batch")
+@Profile("web")
 @Service
 class VehicleService(
     private val vehicleRepository: VehicleRepository,
-    private val rabbitTemplate: RabbitTemplate,
-    private val jsonMapper: JsonMapper
+    private val vehicleUpdateEventRepository: VehicleUpdateEventRepository
 ) {
 
     fun getVehicle(fin: String): Vehicle? {
-        return vehicleRepository.findFirstByVehicleDatacardFinOrderByDocumentVersionDesc(fin)
+        return vehicleRepository.findVehicleByVehicleDatacardFin(fin)
     }
 
     fun createVehicle(vehicle: Vehicle): Vehicle {
         return vehicleRepository.save(vehicle)
     }
 
+    @Transactional
     fun updateVehicle(fin: String, vehicleUpdate: VehicleDTO): Vehicle? {
-        val vehicle = vehicleRepository.findFirstByVehicleDatacardFinOrderByDocumentVersionDesc(fin) ?: return null
+        val vehicle = vehicleRepository.findVehicleByVehicleDatacardFin(fin) ?: return null
 
         val mergedVehicle = vehicle.merge(vehicleUpdate)
-        val updatedVehicle = vehicleRepository.save(mergedVehicle)
+        val changes = vehicle.changesTo(mergedVehicle)
 
-        rabbitTemplate.convertAndSend(
-            VEHICLE_EXCHANGE,
-            VEHICLE_UPDATE_KEY,
-            jsonMapper.writeValueAsString(updatedVehicle.toDto())
+        vehicleRepository.save(mergedVehicle)
+
+        vehicleUpdateEventRepository.save(
+            VehicleUpdateEvent(
+                fin = fin,
+                vehicleId = mergedVehicle.id!!,
+                changes = changes
+            )
         )
 
-        return updatedVehicle
+        return mergedVehicle
     }
 
     private fun Vehicle.merge(update: VehicleDTO) = copy(
-        id = null,
-        documentVersion = this.documentVersion + 1,
         vehicleDatacard = vehicleDatacard.merge(update.vehicleDatacard),
         reference = reference.merge(update.reference)
     )
+
+    private fun Vehicle.changesTo(updatedVehicle: Vehicle): List<FieldChange> = buildList {
+        addChange(
+            "vehicleDatacard.checkDigit",
+            vehicleDatacard?.checkDigit,
+            updatedVehicle.vehicleDatacard?.checkDigit
+        )
+        addChange(
+            "vehicleDatacard.fixingPartsAvailable",
+            vehicleDatacard?.fixingPartsAvailable,
+            updatedVehicle.vehicleDatacard?.fixingPartsAvailable
+        )
+        addChange(
+            "vehicleDatacard.prodOrderTextAvailable",
+            vehicleDatacard?.prodOrderTextAvailable,
+            updatedVehicle.vehicleDatacard?.prodOrderTextAvailable
+        )
+        addChange(
+            "vehicleDatacard.productGroupIndication",
+            vehicleDatacard?.productGroupIndication,
+            updatedVehicle.vehicleDatacard?.productGroupIndication
+        )
+        addChange(
+            "vehicleDatacard.productSeries",
+            vehicleDatacard?.productSeries,
+            updatedVehicle.vehicleDatacard?.productSeries
+        )
+        addChange(
+            "vehicleDatacard.productSeriesBrand",
+            vehicleDatacard?.productSeriesBrand,
+            updatedVehicle.vehicleDatacard?.productSeriesBrand
+        )
+        addChange(
+            "vehicleDatacard.productSeriesDesignation",
+            vehicleDatacard?.productSeriesDesignation,
+            updatedVehicle.vehicleDatacard?.productSeriesDesignation
+        )
+        addChange(
+            "vehicleDatacard.vehicleModelDescription",
+            vehicleDatacard?.vehicleModelDescription,
+            updatedVehicle.vehicleDatacard?.vehicleModelDescription
+        )
+        addChange(
+            "vehicleDatacard.vehicleModelDesignation",
+            vehicleDatacard?.vehicleModelDesignation,
+            updatedVehicle.vehicleDatacard?.vehicleModelDesignation
+        )
+        addChange(
+            "vehicleDatacard.activeAssignedFpd",
+            vehicleDatacard?.activeAssignedFpd,
+            updatedVehicle.vehicleDatacard?.activeAssignedFpd
+        )
+        addChange(
+            "vehicleDatacard.activeCustomerServiceData",
+            vehicleDatacard?.activeCustomerServiceData,
+            updatedVehicle.vehicleDatacard?.activeCustomerServiceData
+        )
+        addChange(
+            "vehicleDatacard.activeModelPlate",
+            vehicleDatacard?.activeModelPlate,
+            updatedVehicle.vehicleDatacard?.activeModelPlate
+        )
+        addChange(
+            "vehicleDatacard.activeProductDate",
+            vehicleDatacard?.activeProductDate,
+            updatedVehicle.vehicleDatacard?.activeProductDate
+        )
+        addChange(
+            "vehicleDatacard.activeProductionInfo",
+            vehicleDatacard?.activeProductionInfo,
+            updatedVehicle.vehicleDatacard?.activeProductionInfo
+        )
+        addChange(
+            "vehicleDatacard.activeState",
+            vehicleDatacard?.activeState,
+            updatedVehicle.vehicleDatacard?.activeState
+        )
+        addChange(
+            "reference.productgroup",
+            reference?.productgroup,
+            updatedVehicle.reference?.productgroup
+        )
+        addChange(
+            "reference.company",
+            reference?.company,
+            updatedVehicle.reference?.company
+        )
+    }
+
+    private fun MutableList<FieldChange>.addChange(path: String, oldValue: Any?, newValue: Any?) {
+        if (oldValue != newValue) {
+            add(FieldChange(path, oldValue, newValue))
+        }
+    }
 
     private fun VehicleDatacard?.merge(update: VehicleDatacard?) = update?.let {
         VehicleDatacard(

@@ -2,7 +2,7 @@ spring:
   application:
     name: vedoc
   mongodb:
-    uri: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@localhost:27017/vedoc?authSource=admin
+    uri: mongodb://localhost:27017/vedoc?replicaSet=rs0
   rabbitmq:
     host: localhost
     port: 5672
@@ -24,3 +24,11 @@ ibm:
     bucket: ${IBM_COS_BUCKET}
     api-key: ${IBM_COS_API_KEY}
     service-instance-id: ${IBM_COS_SERVICE_INSTANCE_ID}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "!web"
+  main:
+    web-application-type: none

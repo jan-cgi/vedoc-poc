@@ -1,6 +1,6 @@
 package com.example.xmljsonadapter.vehicle
 
-import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_UPDATE_QUEUE
+import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_UPDATE_EVENT_QUEUE
 import org.springframework.amqp.rabbit.annotation.RabbitListener
 import org.springframework.jms.core.JmsTemplate
 import org.springframework.stereotype.Component
@@ -15,11 +15,11 @@ class RabbitMQConsumer(
     private val xmlMapper: XmlMapper
 ) {
 
-    @RabbitListener(queues = [VEHICLE_UPDATE_QUEUE])
-    fun updateVehicle(vehicleJson: String) {
-        val vehicle = jsonMapper.readValue<Vehicle>(vehicleJson)
-        val vehicleXml = xmlMapper.writeValueAsString(vehicle)
-        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE", vehicleXml)
+    @RabbitListener(queues = [VEHICLE_UPDATE_EVENT_QUEUE])
+    fun forwardUpdateVehicleEvent(vehicleUpdateEventJson: String) {
+        val vehicleUpdateEvent = jsonMapper.readValue<VehicleUpdateEvent>(vehicleUpdateEventJson)
+        val vehicleXml = xmlMapper.writeValueAsString(vehicleUpdateEvent)
+        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE.EVENT", vehicleXml)
     }
 
 }

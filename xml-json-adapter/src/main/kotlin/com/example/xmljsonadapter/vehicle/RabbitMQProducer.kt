@@ -3,6 +3,7 @@ package com.example.xmljsonadapter.vehicle
 import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_CREATE_KEY
 import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_EXCHANGE
 import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_GET_REQUEST_KEY
+import com.example.xmljsonadapter.config.RabbitMQConfig.Companion.VEHICLE_UPDATE_KEY
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.stereotype.Service
 
@@ -26,6 +27,14 @@ class RabbitMQProducer(
             VEHICLE_GET_REQUEST_KEY,
             fin
         ) as String
+    }
+
+    fun updateVehicle(vehicleJson: String) {
+        defaultRabbitTemplate.convertAndSend(
+            VEHICLE_EXCHANGE,
+            VEHICLE_UPDATE_KEY,
+            vehicleJson
+        )
     }
 
 }

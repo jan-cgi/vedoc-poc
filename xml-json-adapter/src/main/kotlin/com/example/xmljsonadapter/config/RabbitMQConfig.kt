@@ -16,11 +16,12 @@ class RabbitMQConfig {
     companion object {
         const val VEHICLE_EXCHANGE = "vedoc.vehicle.exchange"
         const val VEHICLE_CREATE_KEY = "vedoc.vehicle.create.key"
-        const val VEHICLE_UPDATE_QUEUE = "vedoc.vehicle.update.queue"
-        const val VEHICLE_UPDATE_KEY = "vedoc.vehicle.update.key"
+        const val VEHICLE_UPDATE_EVENT_QUEUE = "vedoc.vehicle.update.event.queue"
+        const val VEHICLE_UPDATE_EVENT_KEY = "vedoc.vehicle.update.event.key"
         const val VEHICLE_GET_REQUEST_KEY = "vedoc.vehicle.get.request.key"
         const val VEHICLE_GET_RESPONSE_QUEUE = "vedoc.vehicle.get.response.queue"
         const val VEHICLE_GET_RESPONSE_KEY = "vedoc.vehicle.get.response.key"
+        const val VEHICLE_UPDATE_KEY = "vedoc.vehicle.update.key"
     }
 
     @Bean
@@ -42,16 +43,16 @@ class RabbitMQConfig {
     }
 
     @Bean
-    fun vehicleUpdateQueue(): Queue {
-        return Queue(VEHICLE_UPDATE_QUEUE, true)
+    fun vehicleUpdateEventQueue(): Queue {
+        return Queue(VEHICLE_UPDATE_EVENT_QUEUE, true)
     }
 
     @Bean
-    fun vehicleUpdateBinding(vehicleUpdateQueue: Queue, vehicleExchange: DirectExchange): Binding {
+    fun vehicleUpdateBinding(vehicleUpdateEventQueue: Queue, vehicleExchange: DirectExchange): Binding {
         return BindingBuilder
-            .bind(vehicleUpdateQueue)
+            .bind(vehicleUpdateEventQueue)
             .to(vehicleExchange)
-            .with(VEHICLE_UPDATE_KEY)
+            .with(VEHICLE_UPDATE_EVENT_KEY)
     }
 
     @Bean

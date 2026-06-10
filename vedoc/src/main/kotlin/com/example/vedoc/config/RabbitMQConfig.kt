@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
 
-@Profile("!batch")
+@Profile("web", "batch-publish-update")
 @Configuration
 class RabbitMQConfig {
 
@@ -16,7 +16,9 @@ class RabbitMQConfig {
         const val VEHICLE_EXCHANGE = "vedoc.vehicle.exchange"
         const val VEHICLE_CREATE_QUEUE = "vedoc.vehicle.create.queue"
         const val VEHICLE_CREATE_KEY = "vedoc.vehicle.create.key"
+        const val VEHICLE_UPDATE_QUEUE = "vedoc.vehicle.update.queue"
         const val VEHICLE_UPDATE_KEY = "vedoc.vehicle.update.key"
+        const val VEHICLE_UPDATE_EVENT_KEY = "vedoc.vehicle.update.event.key"
         const val VEHICLE_GET_REQUEST_QUEUE = "vedoc.vehicle.get.request.queue"
         const val VEHICLE_GET_REQUEST_KEY = "vedoc.vehicle.get.request.key"
     }
@@ -50,6 +52,19 @@ class RabbitMQConfig {
             .bind(vehicleGetRequestQueue)
             .to(vehicleExchange)
             .with(VEHICLE_GET_REQUEST_KEY)
+    }
+
+    @Bean
+    fun vehicleUpdateQueue(): Queue {
+        return Queue(VEHICLE_UPDATE_QUEUE, true)
+    }
+
+    @Bean
+    fun vehicleUpdateBinding(vehicleUpdateQueue: Queue, vehicleExchange: DirectExchange): Binding {
+        return BindingBuilder
+            .bind(vehicleUpdateQueue)
+            .to(vehicleExchange)
+            .with(VEHICLE_UPDATE_KEY)
     }
 
 }

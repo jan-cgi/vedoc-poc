@@ -31,4 +31,11 @@ class IBMMQConsumer(
         }
     }
 
+    @JmsListener(destination = "DEV.QUEUE.VEHICLE.UPDATE")
+    fun updateVehicle(vehicleXML: String) {
+        val vehicle = xmlMapper.readValue<Vehicle>(vehicleXML)
+        val vehicleJson = jsonMapper.writeValueAsString(vehicle)
+        rabbitMQProducer.updateVehicle(vehicleJson)
+    }
+
 }
