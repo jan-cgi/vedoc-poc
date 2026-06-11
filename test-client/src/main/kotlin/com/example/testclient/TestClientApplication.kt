@@ -27,30 +27,30 @@ class TestClientApplication(
     @Bean
     fun run() = CommandLineRunner {
 
-//        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
-//
-//        Thread.sleep(1000)
-//
-//        val response = jmsTemplate.sendAndReceive("DEV.QUEUE.VEHICLE.GET.REQUEST", "DEV.QUEUE.VEHICLE.GET.RESPONSE") { session ->
-//            session.createTextMessage("WDB9700751K874214")
-//        } as TextMessage
-//
-//        println(response.text)
+        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
 
-        val updateVehicle = """
-            <vehicleUpdate>
-                <vehicleDatacard>
-                    <fin>WDB9700751K874214</fin>
-                    <vehicleModelDescription>Updated model description</vehicleModelDescription>
-                    <fixingPartsAvailable>true</fixingPartsAvailable>
-                </vehicleDatacard>
-                <reference>
-                    <company>Updated company</company>
-                </reference>
-            </vehicleUpdate>
-        """.trimIndent()
+        Thread.sleep(1000)
 
-        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE", updateVehicle)
+        val response = jmsTemplate.sendAndReceive("DEV.QUEUE.VEHICLE.GET.REQUEST", "DEV.QUEUE.VEHICLE.GET.RESPONSE") { session ->
+            session.createTextMessage("WDB9700751K874214")
+        } as TextMessage
+
+        println(response.text)
+
+//        val updateVehicle = """
+//            <vehicleUpdate>
+//                <vehicleDatacard>
+//                    <fin>WDB9700751K874214</fin>
+//                    <vehicleModelDescription>Updated model description</vehicleModelDescription>
+//                    <fixingPartsAvailable>true</fixingPartsAvailable>
+//                </vehicleDatacard>
+//                <reference>
+//                    <company>Updated company</company>
+//                </reference>
+//            </vehicleUpdate>
+//        """.trimIndent()
+//
+//        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE", updateVehicle)
 
 //        for (i in 1..50) {
 //            asyncClient.read("WDB9700751K874214")
