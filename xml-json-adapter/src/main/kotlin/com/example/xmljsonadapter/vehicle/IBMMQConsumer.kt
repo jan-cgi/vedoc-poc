@@ -21,11 +21,14 @@ class IBMMQConsumer(
     }
 
     @JmsListener(destination = "DEV.QUEUE.VEHICLE.GET.REQUEST")
-    fun readVehicle(fin: String): String {
-        val vehicleJson = rabbitMQProducer.getVehicle(fin)
+    fun readVehicle(vehicleGetRequestXML: String): String {
+        val vehicleGetRequest = xmlMapper.readValue<VehicleGetRequest>(vehicleGetRequestXML)
+
+        val vehicleJson = rabbitMQProducer.getVehicle(vehicleGetRequest.fin)
+
         return runCatching {
             val vehicle = jsonMapper.readValue<Vehicle>(vehicleJson)
-            xmlMapper.writeValueAsString(vehicle)
+            vehicle.toXml(vehicleGetRequest.version)
         }.getOrElse {
             vehicleJson
         }
@@ -36,6 +39,14 @@ class IBMMQConsumer(
         val vehicle = xmlMapper.readValue<Vehicle>(vehicleXML)
         val vehicleJson = jsonMapper.writeValueAsString(vehicle)
         rabbitMQProducer.updateVehicle(vehicleJson)
+    }
+
+    private fun Vehicle.toXml(version: Int): String {
+        return when (version) {
+            1 -> xmlMapper.writeValueAsString(toV1())
+            2 -> xmlMapper.writeValueAsString(this)
+            else -> error("Unsupported vehicle response version: $version")
+        }
     }
 
 }

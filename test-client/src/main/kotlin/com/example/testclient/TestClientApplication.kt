@@ -27,12 +27,12 @@ class TestClientApplication(
     @Bean
     fun run() = CommandLineRunner {
 
-        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
-
-        Thread.sleep(1000)
+//        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
+//
+//        Thread.sleep(1000)
 
         val response = jmsTemplate.sendAndReceive("DEV.QUEUE.VEHICLE.GET.REQUEST", "DEV.QUEUE.VEHICLE.GET.RESPONSE") { session ->
-            session.createTextMessage("WDB9700751K874214")
+            session.createTextMessage(xmlMapper.writeValueAsString(VehicleGetRequest("WDB9700751K874214", version = 2)))
         } as TextMessage
 
         println(response.text)
@@ -73,3 +73,8 @@ class TestClientApplication(
 fun main(args: Array<String>) {
     runApplication<TestClientApplication>(*args)
 }
+
+data class VehicleGetRequest(
+    val fin: String,
+    val version: Int = 2,
+)
