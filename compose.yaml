@@ -9,7 +9,7 @@ services:
     healthcheck:
       test: >
         mongosh --quiet --eval
-        'try { rs.status().ok } catch (e) { rs.initiate({_id: "rs0", members: [{ _id: 0, host: "localhost:27017" }] }).ok }'
+        'try { rs.status().ok } catch (e) { rs.initiate({_id: "rs0", members: [{ _id: 0, host: "mongodb:27017" }] }).ok }'
       interval: 10s
       timeout: 5s
       retries: 5
@@ -37,3 +37,44 @@ services:
       MQ_ADMIN_PASSWORD: ${IBM_MQ_PASSWORD} # user = admin
     volumes:
       - ./config.mqsc:/etc/mqm/config.mqsc
+
+  vedoc:
+    build:
+      context: ./vedoc
+    container_name: vedoc
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: web
+      SPRING_MONGODB_URI: mongodb://mongodb:27017/vedoc?replicaSet=rs0
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+      SPRING_RABBITMQ_USERNAME: ${RABBITMQ_USER}
+      SPRING_RABBITMQ_PASSWORD: ${RABBITMQ_PASSWORD}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_started
+
+  xml-json-adapter:
+    build:
+      context: ./xml-json-adapter
+    container_name: xml-json-adapter
+    environment:
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+      SPRING_RABBITMQ_USERNAME: ${RABBITMQ_USER}
+      SPRING_RABBITMQ_PASSWORD: ${RABBITMQ_PASSWORD}
+      IBM_MQ_QUEUE_MANAGER: QM1
+      IBM_MQ_CONN_NAME: ibmmq(1414)
+      IBM_MQ_CHANNEL: DEV.APP.SVRCONN
+      IBM_MQ_USER: ${IBM_MQ_USER:-app}
+      IBM_MQ_PASSWORD: ${IBM_MQ_PASSWORD}
+    depends_on:
+      rabbitmq:
+        condition: service_started
+      ibmmq:
+        condition: service_started
+      vedoc:
+        condition: service_started

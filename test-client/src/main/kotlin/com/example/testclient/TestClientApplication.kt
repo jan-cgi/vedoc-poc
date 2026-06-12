@@ -27,9 +27,9 @@ class TestClientApplication(
     @Bean
     fun run() = CommandLineRunner {
 
-//        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
-//
-//        Thread.sleep(1000)
+        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.CREATE", file2.getContentAsString(Charset.defaultCharset()))
+
+        Thread.sleep(1000)
 
         val response = jmsTemplate.sendAndReceive("DEV.QUEUE.VEHICLE.GET.REQUEST", "DEV.QUEUE.VEHICLE.GET.RESPONSE") { session ->
             session.createTextMessage(xmlMapper.writeValueAsString(VehicleGetRequest("WDB9700751K874214", version = 2)))
