@@ -28,11 +28,9 @@ class VehicleController(
     fun updateVehicle(
         @PathVariable fin: String,
         @RequestBody vehicleUpdate: VehicleDTO
-    ): ResponseEntity<VehicleDTO> {
-        return vehicleService.updateVehicle(fin, vehicleUpdate)
-            ?.toDto()
-            ?.let { ResponseEntity.ok(it) }
-            ?: ResponseEntity.notFound().build()
+    ): ResponseEntity<Void> {
+        vehicleService.updateVehicle(fin, vehicleUpdate)
+        return ResponseEntity.noContent().build()
     }
 
 }
