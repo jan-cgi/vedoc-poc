@@ -26,7 +26,7 @@ class RabbitMQProducer(
             VEHICLE_EXCHANGE,
             VEHICLE_GET_REQUEST_KEY,
             fin
-        ) as String
+        ) as? String ?: throw IllegalStateException("Timed out waiting for vehicle response for$fin")
     }
 
     fun updateVehicle(vehicleJson: String) {

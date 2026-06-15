@@ -5,8 +5,8 @@ spring:
     cache:
       session-cache-size: 32
     listener:
-      min-concurrency: 8
-      max-concurrency: 32
+      min-concurrency: 2
+      max-concurrency: 4
   rabbitmq:
     host: localhost
     port: 5672

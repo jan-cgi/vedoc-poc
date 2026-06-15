@@ -12,6 +12,7 @@ import jakarta.jms.ConnectionFactory
 import jakarta.jms.Session
 import jakarta.jms.TextMessage
 import java.time.Duration
+import java.util.concurrent.ThreadLocalRandom
 import java.util.UUID
 
 class VedocIbmMqSimulation : Simulation() {
@@ -27,13 +28,15 @@ class VedocIbmMqSimulation : Simulation() {
     }
 
     private val existingFin = property("vehicleFin", "WDB9700751K874214")
+    private val seedVehicleCount = property("seedVehicleCount", "30").toInt()
+    private val seededFins = buildSeededFins(existingFin, seedVehicleCount)
     private val testDuration = Duration.ofSeconds(property("durationSeconds", "300").toLong())
 
     private val readRate = property("readRate", "10.0").toDouble()
     private val createRate = property("createRate", (1.0 / 60.0).toString()).toDouble()
     private val updateRate = property("updateRate", "3.0").toDouble()
     private val vehicleXmlTemplate = loadResource(property("vehicleXmlResource", LARGE_VEHICLE_TEMPLATE))
-    private val replyTimeoutMillis = property("replyTimeoutMillis", "10000").toLong()
+    private val replyTimeoutMillis = property("replyTimeoutMillis", "60000").toLong()
     private val mqUser = property("mqUser", "IBM_MQ_USER", "app")
     private val mqPassword = property("mqPassword", "IBM_MQ_PASSWORD", "password")
     private val connectionFactory = ibmMqConnectionFactory()
@@ -54,7 +57,7 @@ class VedocIbmMqSimulation : Simulation() {
                 .requestReply()
                 .queue(GET_REQUEST_QUEUE)
                 .replyQueue(GET_RESPONSE_QUEUE)
-                .textMessage(readVehicleXml(existingFin))
+                .textMessage { readVehicleXml(randomSeededFin()) }
         )
 
     private val creates = scenario("vehicle creates")
@@ -70,7 +73,7 @@ class VedocIbmMqSimulation : Simulation() {
             jms("update vehicle")
                 .send()
                 .queue(UPDATE_QUEUE)
-                .textMessage { updateVehicleXml(existingFin) }
+                .textMessage { updateVehicleXml(randomSeededFin()) }
         )
 
     init {
@@ -113,6 +116,18 @@ class VedocIbmMqSimulation : Simulation() {
         return "LT" + UUID.randomUUID().toString().replace("-", "").take(15)
     }
 
+    private fun buildSeededFins(baseFin: String, count: Int): List<String> {
+        require(count > 0) { "seedVehicleCount must be greater than 0" }
+        return listOf(baseFin) + (1 until count).map { index ->
+            val suffix = index.toString(36).uppercase().padStart(2, '0')
+            baseFin.dropLast(2) + suffix
+        }
+    }
+
+    private fun randomSeededFin(): String {
+        return seededFins[ThreadLocalRandom.current().nextInt(seededFins.size)]
+    }
+
     private fun readVehicleXml(fin: String): String {
         return """
             <vehicleGetRequest>
@@ -151,24 +166,26 @@ class VedocIbmMqSimulation : Simulation() {
     }
 
     private fun seedExistingVehicle() {
-        if (readVehicleOverJms(existingFin).isVehicleFound()) {
-            println("Seed vehicle $existingFin already exists")
-            return
-        }
-
-        println("Seed vehicle $existingFin not found; publishing create message")
-        sendTextMessage(CREATE_QUEUE, largeVehicleXml(existingFin))
-
-        val deadline = System.nanoTime() + seedTimeout.toNanos()
-        while (System.nanoTime() < deadline) {
-            Thread.sleep(seedPollInterval.toMillis())
-            if (readVehicleOverJms(existingFin).isVehicleFound()) {
-                println("Seed vehicle $existingFin is readable")
-                return
+        seededFins.forEach { fin ->
+            if (readVehicleOverJms(fin).isVehicleFound()) {
+                println("Seed vehicle $fin already exists")
+                return@forEach
             }
-        }
 
-        error("Seed vehicle $existingFin was not readable within ${seedTimeout.seconds} seconds")
+            println("Seed vehicle $fin not found; publishing create message")
+            sendTextMessage(CREATE_QUEUE, largeVehicleXml(fin))
+
+            val deadline = System.nanoTime() + seedTimeout.toNanos()
+            while (System.nanoTime() < deadline) {
+                Thread.sleep(seedPollInterval.toMillis())
+                if (readVehicleOverJms(fin).isVehicleFound()) {
+                    println("Seed vehicle $fin is readable")
+                    return@forEach
+                }
+            }
+
+            error("Seed vehicle $fin was not readable within ${seedTimeout.seconds} seconds")
+        }
     }
 
     private fun readVehicleOverJms(fin: String): String {
