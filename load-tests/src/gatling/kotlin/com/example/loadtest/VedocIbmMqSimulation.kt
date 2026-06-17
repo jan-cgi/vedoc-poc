@@ -4,6 +4,7 @@ import com.ibm.mq.jakarta.jms.MQQueueConnectionFactory
 import com.ibm.msg.client.jakarta.wmq.WMQConstants
 import io.gatling.javaapi.core.CoreDsl.constantUsersPerSec
 import io.gatling.javaapi.core.CoreDsl.global
+import io.gatling.javaapi.core.CoreDsl.rampUsersPerSec
 import io.gatling.javaapi.core.CoreDsl.scenario
 import io.gatling.javaapi.core.Simulation
 import io.gatling.javaapi.jms.JmsDsl.jms
@@ -28,13 +29,17 @@ class VedocIbmMqSimulation : Simulation() {
     }
 
     private val existingFin = property("vehicleFin", "WDB9700751K874214")
-    private val seedVehicleCount = property("seedVehicleCount", "30").toInt()
+    private val seedVehicleCount = property("seedVehicleCount", "10").toInt()
     private val seededFins = buildSeededFins(existingFin, seedVehicleCount)
-    private val testDuration = Duration.ofSeconds(property("durationSeconds", "300").toLong())
+    private val testDuration = Duration.ofSeconds(property("durationSeconds", "3600").toLong())
 
     private val readRate = property("readRate", "10.0").toDouble()
     private val createRate = property("createRate", (1.0 / 60.0).toString()).toDouble()
     private val updateRate = property("updateRate", "3.0").toDouble()
+    private val warmUpEnabled = property("warmUp", "true").toBoolean()
+    private val warmUpDuration = Duration.ofSeconds(property("warmUpSeconds", "60").toLong())
+    private val warmUpReadStartRate = property("warmUpReadStartRate", "1.0").toDouble()
+    private val warmUpReadEndRate = property("warmUpReadEndRate", "5.0").toDouble()
     private val vehicleXmlTemplate = loadResource(property("vehicleXmlResource", LARGE_VEHICLE_TEMPLATE))
     private val replyTimeoutMillis = property("replyTimeoutMillis", "60000").toLong()
     private val mqUser = property("mqUser", "IBM_MQ_USER", "app")
@@ -50,6 +55,15 @@ class VedocIbmMqSimulation : Simulation() {
         .listenerThreadCount(property("jmsListenerThreads", "8").toInt())
         .replyTimeout(replyTimeoutMillis)
         .matchByMessageId()
+
+    private val warmUpReads = scenario("vehicle read warm-up")
+        .exec(
+            jms("warm-up read vehicle")
+                .requestReply()
+                .queue(GET_REQUEST_QUEUE)
+                .replyQueue(GET_RESPONSE_QUEUE)
+                .textMessage { readVehicleXml(randomSeededFin()) }
+        )
 
     private val reads = scenario("vehicle reads")
         .exec(
@@ -77,11 +91,25 @@ class VedocIbmMqSimulation : Simulation() {
         )
 
     init {
-        setUp(
+        val mainLoad = listOf(
             reads.injectOpen(constantUsersPerSec(readRate).during(testDuration)),
             creates.injectOpen(constantUsersPerSec(createRate).during(testDuration)),
             updates.injectOpen(constantUsersPerSec(updateRate).during(testDuration)),
         )
+
+        val load = if (warmUpEnabled && !warmUpDuration.isZero && !warmUpDuration.isNegative) {
+            listOf(
+                warmUpReads.injectOpen(
+                    rampUsersPerSec(warmUpReadStartRate)
+                        .to(warmUpReadEndRate)
+                        .during(warmUpDuration)
+                ).andThen(mainLoad)
+            )
+        } else {
+            mainLoad
+        }
+
+        setUp(load)
             .protocols(jmsProtocol)
             .assertions(global().failedRequests().count().shouldBe(0L))
     }
