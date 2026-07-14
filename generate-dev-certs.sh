@@ -53,6 +53,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 command -v openssl >/dev/null || { echo "openssl is required" >&2; exit 1; }
+command -v keytool >/dev/null || { echo "keytool is required" >&2; exit 1; }
 
 if [[ -e "$output_dir" ]]; then
   if [[ "$force" != true ]]; then
@@ -152,12 +153,14 @@ create_client_certificate "xml-json-adapter-ibmmq"
 create_client_certificate "ibmmq-client-1"
 create_client_certificate "ibmmq-client-2"
 
-# All Java clients can use this truststore to validate the two server certificates.
-openssl pkcs12 -export -nokeys \
-  -in "$ca_cert" \
-  -out "$output_dir/truststore.p12" \
-  -name "vedoc-poc-root-ca" \
-  -passout "pass:$PKCS12_PASSWORD"
+# Java needs the CA as a trusted certificate entry. OpenSSL can produce a
+# PKCS#12 container without private keys, but Java then sees no entries.
+keytool -importcert -noprompt \
+  -alias "vedoc-poc-root-ca" \
+  -file "$ca_cert" \
+  -keystore "$output_dir/truststore.p12" \
+  -storetype PKCS12 \
+  -storepass "$PKCS12_PASSWORD"
 
 find "$output_dir" -type f \( -name '*.key' -o -name '*.p12' \) -exec chmod 600 {} +
 find "$output_dir" -type f \( -name '*.crt' -o -name '*.srl' \) -exec chmod 644 {} +
