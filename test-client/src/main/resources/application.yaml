@@ -4,11 +4,26 @@ spring:
   threads:
     virtual:
       enabled: true
+  ssl:
+    bundle:
+      jks:
+        ibmmq:
+          keystore:
+            location: ${IBM_MQ_KEYSTORE:file:../certs/clients/ibmmq-client-1/client.p12}
+            password: ${IBM_MQ_TLS_STORE_PASSWORD:changeit}
+            type: PKCS12
+          truststore:
+            location: ${IBM_MQ_TRUSTSTORE:file:../certs/truststore.p12}
+            password: ${IBM_MQ_TLS_STORE_PASSWORD:changeit}
+            type: PKCS12
 
 ibm:
   mq:
     queue-manager: QM1
     conn-name: localhost(1414)
-    channel: DEV.APP.SVRCONN
+    channel: MTLS.APP.SVRCONN
     user: ${IBM_MQ_USER}
     password: ${IBM_MQ_PASSWORD}
+    ssl-bundle: ibmmq
+    ssl-cipher-suite: "*TLS12ORHIGHER"
+    ssl-peer-name: CN=ibmmq,O=vedoc POC,C=DE
