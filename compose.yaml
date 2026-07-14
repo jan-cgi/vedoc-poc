@@ -42,6 +42,8 @@ services:
       MQ_ADMIN_PASSWORD: ${IBM_MQ_PASSWORD} # user = admin
     volumes:
       - ./config.mqsc:/etc/mqm/config.mqsc
+      - ./certs/ibmmq:/etc/mqm/pki/keys/ibmmq:ro
+      - ./certs/ca/poc-ca.crt:/etc/mqm/pki/trust/poc-ca/ca.crt:ro
 
   vedoc:
     build:
@@ -94,12 +96,23 @@ services:
       SPRING_RABBITMQ_SSL_VERIFY_HOSTNAME: "true"
       IBM_MQ_QUEUE_MANAGER: QM1
       IBM_MQ_CONN_NAME: ibmmq(1414)
-      IBM_MQ_CHANNEL: DEV.APP.SVRCONN
+      IBM_MQ_CHANNEL: MTLS.APP.SVRCONN
       IBM_MQ_USER: ${IBM_MQ_USER:-app}
       IBM_MQ_PASSWORD: ${IBM_MQ_PASSWORD}
+      IBM_MQ_SSL_BUNDLE: ibmmq
+      IBM_MQ_SSL_CIPHER_SUITE: "*TLS12ORHIGHER"
+      IBM_MQ_SSL_PEER_NAME: CN=ibmmq,O=vedoc POC,C=DE
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_LOCATION: file:/run/ibmmq-tls/client.p12
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_PASSWORD: changeit
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_TYPE: PKCS12
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_LOCATION: file:/run/ibmmq-tls/truststore.p12
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_PASSWORD: changeit
+      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_TYPE: PKCS12
     volumes:
       - ./certs/clients/xml-json-adapter-rabbit/client.p12:/run/tls/client.p12:ro
       - ./certs/truststore.p12:/run/tls/truststore.p12:ro
+      - ./certs/clients/xml-json-adapter-ibmmq/client.p12:/run/ibmmq-tls/client.p12:ro
+      - ./certs/truststore.p12:/run/ibmmq-tls/truststore.p12:ro
     depends_on:
       rabbitmq:
         condition: service_started
