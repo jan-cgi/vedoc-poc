@@ -8,10 +8,20 @@ spring:
       min-concurrency: 2
       max-concurrency: 4
   rabbitmq:
-    host: localhost
-    port: 5672
-    username: ${RABBITMQ_USER}
-    password: ${RABBITMQ_PASSWORD}
+    host: rabbitmq
+    port: 5671
+    username: user
+    password: password
+    ssl:
+      enabled: true
+      key-store: file:/run/tls/client.p12
+      key-store-password: changeit
+      key-store-type: PKCS12
+      trust-store: file:/run/tls/truststore.p12
+      trust-store-password: changeit
+      trust-store-type: PKCS12
+      validate-server-certificate: true
+      verify-hostname: true
     listener:
       simple:
         concurrency: 8
@@ -20,11 +30,26 @@ spring:
   threads:
     virtual:
       enabled: true
+  ssl:
+    bundle:
+      jks:
+        ibmmq:
+          keystore:
+            location: file:/run/ibmmq-tls/client.p12
+            password: changeit
+            type: PKCS12
+          truststore:
+            location: file:/run/ibmmq-tls/truststore.p12
+            password: changeit
+            type: PKCS12
 
 ibm:
   mq:
     queue-manager: QM1
-    conn-name: localhost(1414)
-    channel: DEV.APP.SVRCONN
-    user: ${IBM_MQ_USER}
-    password: ${IBM_MQ_PASSWORD}
+    conn-name: ibmmq(1414)
+    channel: MTLS.APP.SVRCONN
+    user: app
+    password: password
+    ssl-bundle: ibmmq
+    ssl-cipher-suite: "*TLS12ORHIGHER"
+    ssl-peer-name: CN=ibmmq,O=vedoc POC,C=DE

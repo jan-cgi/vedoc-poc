@@ -28,31 +28,31 @@ class VedocIbmMqSimulation : Simulation() {
         const val VEHICLE_NOT_FOUND_PREFIX = "No vehicle found with fin:"
     }
 
-    private val existingFin = property("vehicleFin", "WDB9700751K874214")
-    private val seedVehicleCount = property("seedVehicleCount", "10").toInt()
+    private val existingFin = "WDB9700751K874214"
+    private val seedVehicleCount = 10
     private val seededFins = buildSeededFins(existingFin, seedVehicleCount)
-    private val testDuration = Duration.ofSeconds(property("durationSeconds", "3600").toLong())
+    private val testDuration = Duration.ofSeconds(3600)
 
-    private val readRate = property("readRate", "10.0").toDouble()
-    private val createRate = property("createRate", (1.0 / 60.0).toString()).toDouble()
-    private val updateRate = property("updateRate", "3.0").toDouble()
-    private val warmUpEnabled = property("warmUp", "true").toBoolean()
-    private val warmUpDuration = Duration.ofSeconds(property("warmUpSeconds", "60").toLong())
-    private val warmUpReadStartRate = property("warmUpReadStartRate", "1.0").toDouble()
-    private val warmUpReadEndRate = property("warmUpReadEndRate", "5.0").toDouble()
-    private val vehicleXmlTemplate = loadResource(property("vehicleXmlResource", LARGE_VEHICLE_TEMPLATE))
-    private val replyTimeoutMillis = property("replyTimeoutMillis", "60000").toLong()
-    private val mqUser = property("mqUser", "IBM_MQ_USER", "app")
-    private val mqPassword = property("mqPassword", "IBM_MQ_PASSWORD", "password")
+    private val readRate = 10.0
+    private val createRate = 1.0 / 60.0
+    private val updateRate = 3.0
+    private val warmUpEnabled = true
+    private val warmUpDuration = Duration.ofSeconds(60)
+    private val warmUpReadStartRate = 1.0
+    private val warmUpReadEndRate = 5.0
+    private val vehicleXmlTemplate = loadResource(LARGE_VEHICLE_TEMPLATE)
+    private val replyTimeoutMillis = 60_000L
+    private val mqUser = "app"
+    private val mqPassword = "password"
     private val connectionFactory = ibmMqConnectionFactory()
-    private val seedVehicleEnabled = property("seedVehicle", "true").toBoolean()
-    private val seedTimeout = Duration.ofSeconds(property("seedTimeoutSeconds", "30").toLong())
-    private val seedPollInterval = Duration.ofMillis(property("seedPollIntervalMillis", "500").toLong())
+    private val seedVehicleEnabled = true
+    private val seedTimeout = Duration.ofSeconds(30)
+    private val seedPollInterval = Duration.ofMillis(500)
 
     private val jmsProtocol = jms
         .connectionFactory(connectionFactory)
         .credentials(mqUser, mqPassword)
-        .listenerThreadCount(property("jmsListenerThreads", "8").toInt())
+        .listenerThreadCount(8)
         .replyTimeout(replyTimeoutMillis)
         .matchByMessageId()
 
@@ -122,22 +122,12 @@ class VedocIbmMqSimulation : Simulation() {
 
     private fun ibmMqConnectionFactory(): ConnectionFactory {
         return MQQueueConnectionFactory().apply {
-            hostName = property("mqHost", "IBM_MQ_HOST", "localhost")
-            port = property("mqPort", "IBM_MQ_PORT", "1414").toInt()
-            queueManager = property("mqQueueManager", "IBM_MQ_QUEUE_MANAGER", "QM1")
-            channel = property("mqChannel", "IBM_MQ_CHANNEL", "DEV.APP.SVRCONN")
+            hostName = "localhost"
+            port = 1414
+            queueManager = "QM1"
+            channel = "DEV.APP.SVRCONN"
             transportType = WMQConstants.WMQ_CM_CLIENT
         }
-    }
-
-    private fun property(name: String, defaultValue: String): String {
-        return property(name, name.replace(Regex("([a-z])([A-Z])"), "$1_$2").uppercase(), defaultValue)
-    }
-
-    private fun property(name: String, envName: String, defaultValue: String): String {
-        return System.getProperty(name)
-            ?: System.getenv(envName)
-            ?: defaultValue
     }
 
     private fun uniqueFin(): String {

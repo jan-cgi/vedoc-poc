@@ -20,9 +20,6 @@ services:
     ports:
       - "5671:5671"   # AMQP over mTLS
       - "15672:15672" # Management UI
-    environment:
-      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER}
-      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
     volumes:
       - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
       - ./certs/ca/poc-ca.crt:/etc/rabbitmq/tls/ca.crt:ro
@@ -38,8 +35,8 @@ services:
     environment:
       LICENSE: accept
       MQ_QMGR_NAME: QM1
-      MQ_APP_PASSWORD: ${IBM_MQ_PASSWORD} # user = app
-      MQ_ADMIN_PASSWORD: ${IBM_MQ_PASSWORD} # user = admin
+      MQ_APP_PASSWORD: password # user = app
+      MQ_ADMIN_PASSWORD: password # user = admin
     volumes:
       - ./config.mqsc:/etc/mqm/config.mqsc
       - ./certs/ibmmq:/etc/mqm/pki/keys/ibmmq:ro
@@ -51,22 +48,6 @@ services:
     container_name: vedoc
     ports:
       - "8080:8080"
-    environment:
-      SPRING_PROFILES_ACTIVE: web
-      SPRING_MONGODB_URI: mongodb://mongodb:27017/vedoc?replicaSet=rs0
-      SPRING_RABBITMQ_HOST: rabbitmq
-      SPRING_RABBITMQ_PORT: 5671
-      SPRING_RABBITMQ_USERNAME: ${RABBITMQ_USER}
-      SPRING_RABBITMQ_PASSWORD: ${RABBITMQ_PASSWORD}
-      SPRING_RABBITMQ_SSL_ENABLED: "true"
-      SPRING_RABBITMQ_SSL_KEY_STORE: file:/run/tls/client.p12
-      SPRING_RABBITMQ_SSL_KEY_STORE_PASSWORD: changeit
-      SPRING_RABBITMQ_SSL_KEY_STORE_TYPE: PKCS12
-      SPRING_RABBITMQ_SSL_TRUST_STORE: file:/run/tls/truststore.p12
-      SPRING_RABBITMQ_SSL_TRUST_STORE_PASSWORD: changeit
-      SPRING_RABBITMQ_SSL_TRUST_STORE_TYPE: PKCS12
-      SPRING_RABBITMQ_SSL_VALIDATE_SERVER_CERTIFICATE: "true"
-      SPRING_RABBITMQ_SSL_VERIFY_HOSTNAME: "true"
     volumes:
       - ./certs/clients/vedoc-rabbit/client.p12:/run/tls/client.p12:ro
       - ./certs/truststore.p12:/run/tls/truststore.p12:ro
@@ -80,34 +61,6 @@ services:
     build:
       context: ./xml-json-adapter
     container_name: xml-json-adapter
-    environment:
-      SPRING_RABBITMQ_HOST: rabbitmq
-      SPRING_RABBITMQ_PORT: 5671
-      SPRING_RABBITMQ_USERNAME: ${RABBITMQ_USER}
-      SPRING_RABBITMQ_PASSWORD: ${RABBITMQ_PASSWORD}
-      SPRING_RABBITMQ_SSL_ENABLED: "true"
-      SPRING_RABBITMQ_SSL_KEY_STORE: file:/run/tls/client.p12
-      SPRING_RABBITMQ_SSL_KEY_STORE_PASSWORD: changeit
-      SPRING_RABBITMQ_SSL_KEY_STORE_TYPE: PKCS12
-      SPRING_RABBITMQ_SSL_TRUST_STORE: file:/run/tls/truststore.p12
-      SPRING_RABBITMQ_SSL_TRUST_STORE_PASSWORD: changeit
-      SPRING_RABBITMQ_SSL_TRUST_STORE_TYPE: PKCS12
-      SPRING_RABBITMQ_SSL_VALIDATE_SERVER_CERTIFICATE: "true"
-      SPRING_RABBITMQ_SSL_VERIFY_HOSTNAME: "true"
-      IBM_MQ_QUEUE_MANAGER: QM1
-      IBM_MQ_CONN_NAME: ibmmq(1414)
-      IBM_MQ_CHANNEL: MTLS.APP.SVRCONN
-      IBM_MQ_USER: ${IBM_MQ_USER:-app}
-      IBM_MQ_PASSWORD: ${IBM_MQ_PASSWORD}
-      IBM_MQ_SSL_BUNDLE: ibmmq
-      IBM_MQ_SSL_CIPHER_SUITE: "*TLS12ORHIGHER"
-      IBM_MQ_SSL_PEER_NAME: CN=ibmmq,O=vedoc POC,C=DE
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_LOCATION: file:/run/ibmmq-tls/client.p12
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_PASSWORD: changeit
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_KEYSTORE_TYPE: PKCS12
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_LOCATION: file:/run/ibmmq-tls/truststore.p12
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_PASSWORD: changeit
-      SPRING_SSL_BUNDLE_JKS_IBMMQ_TRUSTSTORE_TYPE: PKCS12
     volumes:
       - ./certs/clients/xml-json-adapter-rabbit/client.p12:/run/tls/client.p12:ro
       - ./certs/truststore.p12:/run/tls/truststore.p12:ro

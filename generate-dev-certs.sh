@@ -147,9 +147,9 @@ create_server_certificate "ibmmq" "DNS:ibmmq,DNS:localhost"
 
 create_client_certificate "vedoc-rabbit"
 create_client_certificate "xml-json-adapter-rabbit"
-create_client_certificate "rabbit-client-1"
+create_client_certificate "rabbit-test-client"
 create_client_certificate "xml-json-adapter-ibmmq"
-create_client_certificate "ibmmq-client-1"
+create_client_certificate "ibmmq-test-client"
 
 # Java needs the CA as a trusted certificate entry. OpenSSL can produce a
 # PKCS#12 container without private keys, but Java then sees no entries.

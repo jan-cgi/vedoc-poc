@@ -37,20 +37,20 @@ class TestClientApplication(
 
         println(response.text)
 
-//        val updateVehicle = """
-//            <vehicleUpdate>
-//                <vehicleDatacard>
-//                    <fin>WDB9700751K874214</fin>
-//                    <vehicleModelDescription>Updated model description</vehicleModelDescription>
-//                    <fixingPartsAvailable>true</fixingPartsAvailable>
-//                </vehicleDatacard>
-//                <reference>
-//                    <company>Updated company</company>
-//                </reference>
-//            </vehicleUpdate>
-//        """.trimIndent()
-//
-//        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE", updateVehicle)
+        val updateVehicle = """
+            <vehicleUpdate>
+                <vehicleDatacard>
+                    <fin>WDB9700751K874214</fin>
+                    <vehicleModelDescription>Updated model description</vehicleModelDescription>
+                    <fixingPartsAvailable>true</fixingPartsAvailable>
+                </vehicleDatacard>
+                <reference>
+                    <company>Updated company</company>
+                </reference>
+            </vehicleUpdate>
+        """.trimIndent()
+
+        jmsTemplate.convertAndSend("DEV.QUEUE.VEHICLE.UPDATE", updateVehicle)
 
 //        for (i in 1..50) {
 //            asyncClient.read("WDB9700751K874214")

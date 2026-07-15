@@ -1,13 +1,25 @@
 spring:
   application:
     name: vedoc
+  profiles:
+    active: web
   mongodb:
-    uri: mongodb://localhost:27017/vedoc?replicaSet=rs0
+    uri: mongodb://mongodb:27017/vedoc?replicaSet=rs0
   rabbitmq:
-    host: localhost
-    port: 5672
-    username: ${RABBITMQ_USER}
-    password: ${RABBITMQ_PASSWORD}
+    host: rabbitmq
+    port: 5671
+    username: user
+    password: password
+    ssl:
+      enabled: true
+      key-store: file:/run/tls/client.p12
+      key-store-password: changeit
+      key-store-type: PKCS12
+      trust-store: file:/run/tls/truststore.p12
+      trust-store-password: changeit
+      trust-store-type: PKCS12
+      validate-server-certificate: true
+      verify-hostname: true
     listener:
       simple:
         concurrency: 8
