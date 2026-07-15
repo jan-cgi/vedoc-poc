@@ -1,6 +1,6 @@
 spring:
   application:
-    name: test-client
+    name: ibmmq-test-client
   threads:
     virtual:
       enabled: true
