@@ -23,8 +23,8 @@ Options:
   -h, --help            Show this help
 
 The script creates a private POC CA, server certificates for RabbitMQ and
-IBM MQ, and client certificates for vedoc, xml-json-adapter, and two extra
-clients per broker. Java-ready PKCS#12 key- and truststores are included.
+IBM MQ, and client certificates for vedoc, xml-json-adapter, and one extra
+client per broker. Java-ready PKCS#12 key- and truststores are included.
 Their password is the fixed POC value: changeit.
 EOF
 }
@@ -148,10 +148,8 @@ create_server_certificate "ibmmq" "DNS:ibmmq,DNS:localhost"
 create_client_certificate "vedoc-rabbit"
 create_client_certificate "xml-json-adapter-rabbit"
 create_client_certificate "rabbit-client-1"
-create_client_certificate "rabbit-client-2"
 create_client_certificate "xml-json-adapter-ibmmq"
 create_client_certificate "ibmmq-client-1"
-create_client_certificate "ibmmq-client-2"
 
 # Java needs the CA as a trusted certificate entry. OpenSSL can produce a
 # PKCS#12 container without private keys, but Java then sees no entries.
