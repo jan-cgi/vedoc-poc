@@ -1,0 +1,34 @@
+{
+  "users": [
+    { "name": "vedoc-rabbit", "password_hash": "", "hashing_algorithm": "rabbit_password_hashing_sha256", "tags": [] },
+    { "name": "xml-json-adapter-rabbit", "password_hash": "", "hashing_algorithm": "rabbit_password_hashing_sha256", "tags": [] },
+    { "name": "rabbit-test-client", "password_hash": "", "hashing_algorithm": "rabbit_password_hashing_sha256", "tags": [] }
+  ],
+  "vhosts": [{ "name": "/" }],
+  "permissions": [
+    {
+      "user": "vedoc-rabbit",
+      "vhost": "/",
+      "configure": "^vedoc\\.vehicle\\.(exchange|create\\.queue|get\\.request\\.queue|update\\.queue)$",
+      "write": "^vedoc\\.vehicle\\.(exchange|create\\.queue|get\\.request\\.queue|update\\.queue)$",
+      "read": "^vedoc\\.vehicle\\.(exchange|create\\.queue|get\\.request\\.queue|update\\.queue)$"
+    },
+    {
+      "user": "xml-json-adapter-rabbit",
+      "vhost": "/",
+      "configure": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue|update\\.event\\.queue)$",
+      "write": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue|update\\.event\\.queue)$",
+      "read": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue|update\\.event\\.queue)$"
+    },
+    {
+      "user": "rabbit-test-client",
+      "vhost": "/",
+      "configure": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue\\.test-client)$",
+      "write": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue\\.test-client)$",
+      "read": "^vedoc\\.vehicle\\.(exchange|get\\.response\\.queue\\.test-client)$"
+    }
+  ],
+  "queues": [],
+  "exchanges": [],
+  "bindings": []
+}

@@ -4,8 +4,6 @@ spring:
   rabbitmq:
     host: localhost
     port: 5671
-    username: user
-    password: password
     ssl:
       enabled: true
       key-store: file:../certs/clients/rabbit-test-client/client.p12

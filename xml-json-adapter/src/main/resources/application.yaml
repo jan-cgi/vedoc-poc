@@ -10,8 +10,6 @@ spring:
   rabbitmq:
     host: rabbitmq
     port: 5671
-    username: user
-    password: password
     ssl:
       enabled: true
       key-store: file:/run/tls/client.p12

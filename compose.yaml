@@ -15,13 +15,15 @@ services:
       retries: 5
 
   rabbitmq:
-    image: rabbitmq:4.3.0-management-alpine
+    build:
+      context: ./rabbitmq
     container_name: rabbitmq
     ports:
       - "5671:5671"   # AMQP over mTLS
       - "15672:15672" # Management UI
     volumes:
       - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+      - ./rabbitmq-definitions.json:/etc/rabbitmq/definitions.json:ro
       - ./certs/ca/poc-ca.crt:/etc/rabbitmq/tls/ca.crt:ro
       - ./certs/rabbitmq/server.crt:/etc/rabbitmq/tls/server.crt:ro
       - ./certs/rabbitmq/server.key:/etc/rabbitmq/tls/server.key:ro

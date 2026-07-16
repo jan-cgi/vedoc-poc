@@ -1,5 +1,7 @@
 package com.example.xmljsonadapter.config
 
+import com.rabbitmq.client.DefaultSaslConfig
+import org.springframework.boot.amqp.autoconfigure.ConnectionFactoryCustomizer
 import org.springframework.amqp.core.Binding
 import org.springframework.amqp.core.BindingBuilder
 import org.springframework.amqp.core.DirectExchange
@@ -12,6 +14,10 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class RabbitMQConfig {
+
+    @Bean
+    fun certificateSaslCustomizer(): ConnectionFactoryCustomizer =
+        ConnectionFactoryCustomizer { it.saslConfig = DefaultSaslConfig.EXTERNAL }
 
     companion object {
         const val VEHICLE_EXCHANGE = "vedoc.vehicle.exchange"
