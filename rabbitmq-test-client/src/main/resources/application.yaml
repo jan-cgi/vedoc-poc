@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: rabbitmq-test-client
+  rabbitmq:
+    host: localhost
+    port: 5671
+    username: user
+    password: password
+    ssl:
+      enabled: true
+      key-store: file:../certs/clients/rabbit-test-client/client.p12
+      key-store-password: changeit
+      key-store-type: PKCS12
+      trust-store: file:../certs/truststore.p12
+      trust-store-password: changeit
+      trust-store-type: PKCS12
+      validate-server-certificate: true
+      verify-hostname: true
